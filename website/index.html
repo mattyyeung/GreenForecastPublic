@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans:wght@300;400;700">
+  <link href="style.css" rel="stylesheet">
+  <!-- <link rel="shortcut icon" href="img/icons/icon.png"> -->
+  <title>Greenforecast.au</title>
+  <meta name="description" content="">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@GreenForecastAu">
+  <meta name="twitter:creator" content="@GreenForecastAu">
+  <meta name="twitter:title" content="GreenForecast.au: 7-day forecast of Renewables and power price in the NEM">
+  <meta name="twitter:image" content="https://greenforecast.au/SiteScreenshot.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+  <link rel="manifest" href="icons/site.webmanifest">
+</head>
+<body>
+  <div id="header">
+    <h1>Greenforecast.au</h1>
+    <p class="subheading">7-Day Outlook of <span class="green">Renewable Electricity</span> and <span class="purple">Power Price</span> in the National Electricity Market</p>
+  </div>
+
+  <div id="content">
+    <div id="buttons">
+      <span id="region-radios">
+        <input type="radio" name="region" id="radio-NSW" value="NSW1" checked><label for="radio-NSW">NSW</label>
+        <input type="radio" name="region" id="radio-VIC" value="VIC1"><label for="radio-VIC">VIC</label>
+        <input type="radio" name="region" id="radio-QLD" value="QLD1"><label for="radio-QLD">QLD</label>
+        <input type="radio" name="region" id="radio-SA"  value="SA1" ><label for="radio-SA">SA</label>
+        <input type="radio" name="region" id="radio-TAS" value="TAS1"><label for="radio-TAS">TAS</label>
+      </span>
+    </div>
+    <div id="snapshot">
+      <div class="tile-row">
+        <div id="main-tile" class="tile">
+          <span class="tile-inner">
+            <span class="region-name"></span>'s electicity is currently: <br><span id="current-greenness"></span><span class="green larger">% Renewable</span>
+            <div class="smaller" id="current-greenness-time">.</div>
+          </span>
+        </div>
+        <div id="next-to-main-tile">
+          <div class="tile">
+            <span class="tile-inner">
+              <h3>Today:</h3>
+              <div class="">Max: <span id="today-max" class="highlight"></span>%</div>
+              <div class="">Min: <span id="today-min" class="highlight"></span>%</div>
+            </span>
+          </div>
+          <div class="tile">
+            <span class="tile-inner">
+              <h3>Tomorrow:</h3>
+              <div class="">Max: <span id="tomorrow-max" class="highlight"></span>%</div>
+              <div class="">Min: <span id="tomorrow-min" class="highlight"></span>%</div>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="tile-row">
+        <div class="tile">
+          <span class="tile-inner">
+            Best EV charging time: <br><span id="ev-charge-time" class="highlight"></span>
+          </span>
+        </div>
+        <div class="tile">
+          <span class="tile-inner">
+            Reduce energy usage: <br><span id="reduce-usage" class="highlight"></span>
+          </span>
+        </div>
+        <div class="tile">
+          <span class="tile-inner">
+            Highest ever Greenness: <br>
+            <span id="highest-ever-greenness" class="highlight"></span>
+            <span id="highest-ever-greenness-date"></span>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div id=table-heading>
+      <h2>7-day Outlook for <span class="region-name"></span>:</h2>
+    </div>
+    <div id="table">
+      <div class="left-col">
+        <div class="left-axis-header">
+          <button class="right-button">&gt;</button>
+          <button class="left-button">&lt;</button>
+        </div>
+        <div class="left-axis">
+          <div class="y-label">Greenness <span class="in-circle has-tooltip">?<span class="tooltip">Greenness is the percentage of electricity that comes from renewables. 100% means all electricity generation for the region (state) is coming from renewable sources; 0% means none.</span></span>
+            <div class="y-label-subtitle">% Electricity from Renewables</div>
+          </div>
+          <div id="greenness-chart-scale" class="chart-scale"></div>
+        </div>
+        <div class="left-axis">
+          <div class="y-label">By Fuel Type
+            <div class="y-label-subtitle legend">% Greenness:
+              <div id="fuel-legend-left">
+                <span class="color-Coal">⬤</span> Coal<br>
+                <span class="color-Gas">⬤</span> Gas<br>
+                <span class="color-Fossil_In">⬤</span> Imported fossil<br>
+                <span class="color-Rooftop">⬤</span> Rooftop<br>
+                <span class="color-Solar">⬤</span> Solar<br>
+                <span class="color-Wind">⬤</span> Wind<br>
+                <span class="color-Hydro">⬤</span> Hydro<br>
+                <span class="color-Green_In">⬤</span> Imported green
+              </div>
+           </div>
+          </div>    
+          <div id="fuel-chart-scale" class="chart-scale"></div>
+        </div>
+        <div id="fuel-legend">
+          <div class="legend-group">
+            <span class="legend-item"><span class="green">┅</span> Greenness %</span>
+            <span class="legend-item"><span class="color-Coal">⬤</span> Coal</span>
+            <span class="legend-item"><span class="color-Gas">⬤</span> Gas</span>
+            <span class="legend-item"><span class="color-Fossil_In">⬤</span> Imported fossil</span>
+          </div>
+          <div class="legend-group">
+            <span class="legend-item"><span class="color-Rooftop">⬤</span> Rooftop</span>
+            <span class="legend-item"><span class="color-Solar">⬤</span> Solar</span>
+            <span class="legend-item"><span class="color-Wind">⬤</span> Wind</span>
+            <span class="legend-item"><span class="color-Hydro">⬤</span> Hydro</span>
+            <span class="legend-item"><span class="color-Green_In">⬤</span> Imported green</span>
+          </div>
+        </div>
+        <div class="left-weather">
+          <button class="left-button">&lt;</button>
+          <button class="right-button">&gt;</button>
+          <div class="weather-label">
+            <div class="y-label"><span class="cityname"></span><br>Weather</div>
+          </div>
+        </div>
+        <div class="left-axis">
+          <div class="y-label">Wholesale Price
+            <div class="y-label-subtitle">¢/kWh on spot market</div>
+          </div>    
+          <div id="price-chart-scale" class="chart-scale"></div>
+        </div>
+      </div>
+
+
+      <div class="right-col">
+        <div id="day-columns">
+          <div class="table-row">
+            <div class="day-header cell">..</div>
+            <div class="day-header cell">..</div>
+            <div class="day-header cell">..</div>
+            <div class="day-header cell">..</div>
+            <div class="day-header cell">..</div>
+            <div class="day-header cell">..</div>
+
+            <div class="day-header cell">..</div>
+            <div class="day-header cell">..</div>
+            <div class="day-header cell">..</div>
+            <div class="day-header cell">..</div>
+            <div class="day-header cell">..</div>
+            <div class="day-header cell">..</div>
+            <div class="day-header cell">..</div>
+          </div>
+          <div class="table-row">
+            <div class="greenness-cell cell">Max: <br><span class="max-greenness"></span>%<br><span class="max-greenness-time"></span></div>
+            <div class="greenness-cell cell">Max: <br><span class="max-greenness"></span>%<br><span class="max-greenness-time"></span></div>
+            <div class="greenness-cell cell">Max: <br><span class="max-greenness"></span>%<br><span class="max-greenness-time"></span></div>
+            <div class="greenness-cell cell">Max: <br><span class="max-greenness"></span>%<br><span class="max-greenness-time"></span></div>
+            <div class="greenness-cell cell">Max: <br><span class="max-greenness"></span>%<br><span class="max-greenness-time"></span></div>
+            <div class="greenness-cell cell">Max: <br><span class="max-greenness"></span>%<br><span class="max-greenness-time"></span></div>
+
+            <div class="greenness-cell cell">Max: <br><span class="max-greenness"></span>%<br><span class="max-greenness-time"></span></div>
+            <div class="greenness-cell cell">Max: <br><span class="max-greenness"></span>%<br><span class="max-greenness-time"></span></div>
+            <div class="greenness-cell cell">Max: <br><span class="max-greenness"></span>%<br><span class="max-greenness-time"></span></div>
+            <div class="greenness-cell cell">Max: <br><span class="max-greenness"></span>%<br><span class="max-greenness-time"></span></div>
+            <div class="greenness-cell cell">Max: <br><span class="max-greenness"></span>%<br><span class="max-greenness-time"></span></div>
+            <div class="greenness-cell cell">Max: <br><span class="max-greenness"></span>%<br><span class="max-greenness-time"></span></div>
+            <div class="greenness-cell cell">Max: <br><span class="max-greenness"></span>%<br><span class="max-greenness-time"></span></div>
+          </div>
+
+          <div class="chart-wrapper">
+            <div id=greenness-chart></div>
+          </div>
+          <div class="chart-wrapper">
+            <div id="fuel-chart"></div>
+          </div>
+
+          <div class="fuel-legend-spacer"> </div>
+
+          <div class="table-row">
+            <div class="day-label-bottom cell">..</div>
+            <div class="day-label-bottom cell">..</div>
+            <div class="day-label-bottom cell">..</div>
+            <div class="day-label-bottom cell">..</div>
+            <div class="day-label-bottom cell">..</div>
+            <div class="day-label-bottom cell">..</div>
+
+            <div class="day-label-bottom cell">..</div>
+            <div class="day-label-bottom cell">..</div>
+            <div class="day-label-bottom cell">..</div>
+            <div class="day-label-bottom cell">..</div>
+            <div class="day-label-bottom cell">..</div>
+            <div class="day-label-bottom cell">..</div>
+            <div class="day-label-bottom cell">..</div>
+          </div>
+
+          <div class="table-row">
+            <div class="weather">
+              <img class="weather-icon">
+              <div class="temperature"></div>
+            </div>
+            <div class="weather">
+              <img class="weather-icon">
+              <div class="temperature"></div>
+            </div>
+            <div class="weather">
+              <img class="weather-icon">
+              <div class="temperature"></div>
+            </div>
+            <div class="weather">
+              <img class="weather-icon">
+              <div class="temperature"></div>
+            </div>
+            <div class="weather">
+              <img class="weather-icon">
+              <div class="temperature"></div>
+            </div>
+            <div class="weather">
+              <img class="weather-icon">
+              <div class="temperature"></div>
+            </div>
+            <div class="weather">
+              <img class="weather-icon">
+              <div class="temperature"></div>
+            </div>
+            <div class="weather">
+              <img class="weather-icon">
+              <div class="temperature"></div>
+            </div>
+            <div class="weather">
+              <img class="weather-icon">
+              <div class="temperature"></div>
+            </div>
+            <div class="weather">
+              <img class="weather-icon">
+              <div class="temperature"></div>
+            </div>
+            <div class="weather">
+              <img class="weather-icon">
+              <div class="temperature"></div>
+            </div>
+            <div class="weather">
+              <img class="weather-icon">
+              <div class="temperature"></div>
+            </div>
+            <div class="weather">
+              <img class="weather-icon">
+              <div class="temperature"></div>
+            </div>
+          </div>
+
+          <div class="chart-wrapper">
+            <div id="price-chart"></div>
+          </div>
+        </div>
+
+        <div id="last-updated"></div>
+
+      </div>
+    </div>
+
+    <div class="chart-tooltip"></div>
+  </div>
+
+  <div id="section2">
+    <h2>Q&A:</h2>
+
+<h3>What is "Greenness"?</h3>
+<p>Greenness is the percentage of electricity that comes from renewables. 100% means all electricity generation for the region (state) is coming from renewable sources; 0% means none.</p>
+
+<h3>Why is this useful?</h3>
+<p>You could use this data to reduce your carbon footprint, learn more about electricity/renewables and - in some cases - reduce energy bills.</p>
+
+<h4>Reduce your carbon footprint:</h4>
+<p>If you use electricity when Greenness is high, your carbon footprint is lower. This simple-sounding claim is surprisingly complex; read below for details. Nevertheless, here are some ideas that can reduce your footprint: </p>
+<ul>
+<li>Implement smart heating/cooling that drives harder during high Greenness</li>
+<li>Choose when to charge batteries or other storage systems</li>
+<li>Choose when to charge electric vehicles</li>
+<li>Schedule electric hot water systems, washers and dryers</li>
+<li>Arrange when energy-intensive workloads at your workplace are schedulled</li>
+<li>[Your ideas here!]</li>
+</ul>
+
+<h4>Can you use this data to reduce your energy bills?</h4>
+<p>Unfortunately, everyday households can't yet take advantage of this data to lower bills. There are some retailers that offer pass-through pricing for electricity but since the 2022 energy crisis they are significantly more expensive than standard options. </p>
+<p>Some large commercial/industrial customers are exposed to wholesale price fluctuations. It's plausible those customers could save by scheduling loads during predicted low prices</p>
+
+<h3>Where do the forecasts come from?</h3>
+<p>Every 2 hours, GreenForecast.au servers grab data from <span class="has-tooltip">AEMO<span class="in-circle">?</span><span class="tooltip">the Australian Energy Market Operator, the organisation that runs the "National" Electricity Market</span></span>, a weather forecast and two other minor sources. This data is fed into a custom Machine Learning (ML) model which has been trained on 10 years (roughly a million data points) of data. The current model is an "ensemble" of around a thousand specialised sub-models which predict price and greenness on a 7 day horizon for 5 NEM regions (states). </p>
+<p>For technical details, see below.</p>
+
+<h3>How accurate is it?</h3>
+<p>Greenness is a little better than a weather forecast; price is a little worse. Unsurprisingly, accuracy for tomorrow is better (about 2x) than 7 days away. On a held-out validation set of data, the model predicts Greenness with an average error of less than 5% and price with average error of 2¢/kWh, depending on region. </p>
+
+
+<hr>
+<h2 class="collapsible-heading">Q&A From Energy People:</h2>
+<div class="collapsible">
+<h3>Greenness Details:</h3>
+<p>For simplicity, the analysis assumes fuel sources are either 'Green' or 'Not Green'. Wind, solar and hydro are 'Green' while coal, diesel and gas (in various forms) are not. Reality is not so simple but these complexities don't currently substantially affect the overall result.</p>
+
+<p>Batteries and pumped storage will be more important in coming years but are currently small. The model currently assumes they do not affect the level of greenness when discharging (or charging). A future improvement could be to assume they discharge with the same level of Greenness that they were charged with (typically high, because it is cheap to charge when solar is abundant). Currently, this effect would be too small to notice.  </p>
+
+<h3>How are Interconnectors treated - and why isn't Tasmania always 100% Greenness?</h3>
+<p><span class="has-tooltip">Interconnectors<span class="in-circle">?</span><span class="tooltip">The big transmission lines that link states together</span></span> affect Greenness and price. Electricity imported from another state is assumed to have the same Greenness as the state it's coming from - it's split into "imported green energy" and "imported fossil energy". This is why Tasmania, which doesn't have fossil fuel power plants, isn't always at 100% Greenness - the imported electricity has lower Greenness because it comes from Victoria. Similarly, Victoria is more Green when it is importing from Tasmania. </p>
+
+<!--
+- generation, not demand
+- There are (too) many subtly different flavours of demand/generation[TODO: link]. This project uses TODO, but the difference is largely academic. 
+-->
+
+<h3>Is your carbon footprint really lowered by using at times of high Greenness?</h3>
+<p>It's Complicated, but yes. </p>
+<p>Currently, the vast majority of electricity that is generated is "used" in less than a second. This will remain true until we have (HEAPS) more battery and pumped storage. It makes intuitive sense that the Greenness of your electricity is calculated from whatever power plants are generating right now.</p>
+<p>But if someone moves their consumption from a 'dirty' time to a 'clean' time, does that <i>cause</i> the total production of green energy to increase? In the short term, <span class="has-tooltip">generally not<span class="in-circle">?</span><span class="tooltip big-tooltip">Wind, solar and hydro typically generate regardless of demand; if usage increases or decreases, they rarely change output, because their fuel is free. (Hydro does respond to demand changes in the short-term, but ultimately the total amount of water available is non-negotiable). This leaves only gas that responds to changes in demand, which means moving consumption from one time to another simply changes <i>when</i> some gas turbine runs, not how much. <br><br>Now, there is an exception to this: when there is very high Greenness, excess supply (high wind and sun) and the price goes negative. Here, solar and wind plants will reduce their output to avoid excess supply causing problems in the grid. Moving consumption to these times would indeed enable higher renewable generation. Currently, this happens only on occasional days in SA during summer, but will increase in prevalence in coming years.</span></span>: more people share the same amount of green energy. But in the long term, moving our consumption to times of high Greenness <i>does</i> enable more green power plants to be built: money that would otherwise be needed for expensive batteries (or rapid-response gas turbines) is spent on cheap wind and solar. Indeed, there are already areas where it is less profitable to add wind/solar because of excess capacity.</p>
+<p>Put another way, if everybody magically decided to schedule their big loads (eg heating/cooling) during times of high Greenness, our transition to 100% renewables would be faster and our electricity bills cheaper.</p>
+
+<h3>What is "Wholesale Price"?</h3>
+<p>Power companies and power plants buy and sell electricity to each other on a "national" spot market, operated by AEMO. Every 5 minutes there is a new market price for each region (state). Every-day consumers typically don't have direct access to this market: their power company buys on behalf of all its customers. Customers pay a flat fee to the power company so the minute-to-minute fluctations of the market don't affect them directly. However, larger commercial/industrial customers may be directly exposed to market fluctuations and there are also some (TODO) power companies that offer 'pass-through' pricing to households. </p>
+<p>Note that the wholesale price of electricity only makes up part of your power bill: other "fixed costs" for infrastructure eg "poles and wires" also contribute.</p>
+
+
+<h3>When are forecasts less accurate?</h3>
+<ul><li>If the weather forecasts turn out to be wrong then wind and solar projections will also be wrong. If the weather forecast for some day changes as it gets closer, the model will adjust Greenness and Price predictions too.</li>
+<li>If there's an unexpected outage of a large power plant or interconnector then predictions will be wrong. This affects price predictions more than Greenness. Planned outages are taken into account. </li>
+<li>Times of high market volatility (eg 2022) result in lower-accuracy price forecasts</li>
+<li>This model is not specifically designed to predict the large price spikes that sporadically occur; this would not contribute to this project's goals.<!--TODO--> </li>
+</ul>
+
+<h3>How does this compare to other predictions?</h3>
+<p>Greenness: No known public alternatives</p>
+<p>Price: AEMO provides <span class="has-tooltip">"forecasts"<span class="in-circle">?</span><span class="tooltip">Predispatch arguably isn't intended as a forecast but is often used as such</span></span> up to 48h in the future. Standing on these shoulders, the GreenForecast.au improves these predictions a little. Beyond 48 hours, grenforecast.au seems to be the only one.</p>
+<p>If you would like to compare these predictions to your own forecaster or you know of any public alternatives, please get in touch! Mail info[AT]greenforecast.au or <a href="https://twitter.com/GreenForecastAu">@GreenForecastAu</a> on twitter.</p>
+<!-- 
+<h3>How would accuracy compare to a human?</h3>
+<p>An experienced trader TODO</p>
+
+ -->
+<h3>How does performance compare across states?</h3>
+<p>NSW and VIC are more accurate, laregly due to their size (stability). SA is the hardest: it is a smaller market and has the highest proportion of unpredictable generation. </p>
+
+<h3>How has the 2022 energy crisis affected predictions?</h3>
+<p>In 2022, the market is (a) more volatile and (b) has higher average prices. In particular, the market 'shutdown' in June 2022. The model certainly didn't predict that, though Greenness predictions were still pretty good. </p>
+<p>From a machine learning point of view, the model did a mediocre job of predicting post-crisis prices (about 3x worse) when it was trained on only pre-crisis data. However, now that post-crisis data is available to train on, the model has a similar accuracy (in percentage terms) to before. </p>
+
+<h3>How is the rapid growth of renewables affecting the model's accuracy?</h3>
+<p>Not much, because this growth is already reflected in the raw data coming from AEMO. Of course, Greenness factors are now much higher than they were!</p>
+
+<h3>Why split state-by-state? Don't local effects matter?</h3>
+<p>There is no great reason for this. The NEM is split up this way and so is the data. </p>
+
+<h3>What about WA? NT?</h3>
+<p>Sorry, the "National" Electricity Market only covers 5 states and ACT. This system is designed around NEM data. If you're a machine learning engineer and you'd like to design a system that uses WA and NT data, you're welcome to contribute, [link github]. Alternatively, simply build a HVDC link across the Nullarbor and you can save yourself the ML headache. </p>
+
+</div>
+
+
+<hr>
+<h2 class="collapsible-heading">Q&A From Tech People:</h2>
+<div class="collapsible">
+
+<h3>What kind of model is it?</h3>
+<p>Currently, an ensemble of a simple neural net (MLP) and XGBoost. One model of each type is trained for each timestep (ie 2 hours in the future, 4 hours in future, ...). The neural nets are weighted marginally higher because they perform better; ensembling provides only a small (~5%) improvement. This is all repeated for price and Greenness for each state, for a total of around a thousand sub-models.</p>
+
+<!-- <h3>What's the exact architecture / hyperparameters?</h3>
+<p>See github TODO.</p>
+ -->
+<h3>How does it compare to architecture X?</h3>
+<p>Experiments so far: Random Forests, ARIMA, DeepAR, TFT, NHiTS, NBEATS, LGBoost, Prophet, various variations on MLPs. Some experiments were extensive, others weren't. Simple MLPs and XGBoost have performed the best. [results TODO]. Suggestions and feedback welcome; you're also welcome to share your own experiments.</p>
+
+<h3>Why might this architecture be performing best?</h3>
+<p>This problem may differ from standard time-series forecasting problems (eg M5) because there are good covariant features and forecasts (eg weather, wind output, etc) available. With basic feature engineering (eg selected past and forecast lags) it perhaps looks more like a tabular data problem than standard time-series forecasting. If so, strong performance from simple neural networks and gradient boosting is not surprising. TODO</p>
+
+<h3>What other techniques were used to improve results?</h3>
+<p>In rough order of effectiveness:</p>
+<ul>
+  <li>As always, getting more data (longer timespan and extra features) made the biggest difference. For example: Some solar data is not available before 2016, but a random forests regressor does a great job of predicting this data back to 2010 from other available data (weather, installed base). See RooftopBackcast.ipynb in the dataset generator.</li>
+  <li>Basic data augmentation - interpolating between datapoints and duplicating points with some features scaled in a logical way (eg all price features increased by 5%)</li>
+  <li>Training each sub-model on a preselected subset of features, eg the submodel predicting 48 hours ahead was not shown forecasts for 96 hours ahead. This minimises <a href="https://arxiv.org/abs/2207.08815">"uninformative features"</a></li>
+  <li>Encoding date features as numeric rather than embeddings improved accuracy, again reducing uninformative features.</li>
+  <li>Using a holdout test set to choose architecture and hyperparameters but making that holdout data available for final training. Held out data is the most recent available and therefore the most releveant to today's market behaviour. A validation set was still used to prevent overfitting.</li>
+  <li>Various training tricks promoted by fast.ai</li>
+</ul>
+
+<h3>Can I try my own model with the dataset?</h3>
+<p>Yes! Currently you'll need to run the dataset generator yourself, the datasets themselves are not yet uploaded. Please share your results! See TODO.</p>
+
+<h3>Which metrics are used?</h3>
+<p>From most-convenient to most-comprehensive:</p>
+<ul><li>MAE for price 84h in the future on VIC1 dataset (ie the feature named 'VIC1_Price_Tp84'). This is selected because price is more variable than Greenness, the time is in middle of the range and not an even multiple of 24h</li>
+  <li>MAE for price for all timesteps from 2h to 168h ahead for VIC1 dataset</li>
+  <li>MAE for price across all timesteps and all regions</li>
+  <li>MAE for price and Greenness separately for all timesteps and all regions</li>
+</ul>
+<p>There's no strong reason for choosing MAE over MSE - brief comparison experiments were inconclusive. Price forecasts vary across several orders of magnitude (even after clamping values to ±$1000/MWh) so MSE would only emphasise that further. This project prioritises the 'every-day' case over outlier events, so MAE wins from that point of view. </p>
+
+<h3>Why not use the same ensemble for each state?</h3>
+<p>Bespoke models for each state performed better than a single model trained on all states (perhaps because there is already a million datapoints per state to train on) or a single model that predicts all states at once (perhaps because this greatly increases the number of features) </p>
+
+<h3>What data is the model trained on?</h3>
+<p>A custom-prepared dataset with around one million datapoints for each NEM region dating back to 2010. Some basic (hand-crafted) data augmentation bulks out scarce post-2022-energy-crisis data. For details, see TODO on github. </p>
+
+<h3>What features are in the dataset?</h3>
+<p>Date features, current/forecast weather, current/forecast NEM data (generation & availability by fuel type, price, interconnectors), price lags and Greenness lags.</p>
+<p>Each sub-model uses around 100 features, picked from the total pool of around a thousand (based on target region and how many hours ahead is being forecast). </p>
+
+<!--
+<h3>How is the dataset split into train/test/validation?</h3>
+<p>TODO</p>
+
+<h3>Can I use the dataset for my own project?</h3>
+<p>Yes. See licensing on github. TODO</p>
+-->
+
+<h3>How long does training take?</h3>
+<p>Training a thousand sub-models takes about 3 days on a single consumer GPU. Inference takes around ten minutes, most of which is gathering data.</p>
+
+<h3>How is the model hosted?</h3>
+<p>Dataset generation and model training are offline. Inference is in AWS Lambda, kicking off every two hours. The website frontend is statically hosted on S3. For details, see the deployment diagram on github TODO.</p>
+
+</div>
+
+  </div>
+
+  <div id="footer">
+    <div id="footer-content">
+      <a href="https://github.com/mattyyeung/GreenForecast">Github</a><br>
+      <a href="https://twitter.com/GreenForecastAu">Twitter</a><br>
+      Contact: info[AT]greenforecast.au
+    </div>
+  </div>
+
+  <script nomodule>document.getElementById('content').innerHTML = '<h1>Update your browser</h1>';</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.6.1/d3.min.js" integrity="sha512-MefNfAGJ/pEy89xLOFs3V6pYPs6AmUhXJrRlydI/9wZuGrqxmrdQ80zKHUcyadAcpH67teDZcBeS6oMJLPtTqw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+

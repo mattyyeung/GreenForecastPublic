@@ -1,0 +1,784 @@
+
+:root {
+  --border-color: rgb(218, 218, 218);
+  --pink: rgb(250, 170, 170);
+  /*--green: rgb(94, 175, 94);*/
+  /*--purple: rgb(67, 127, 127);*/
+  --green: #149684;
+  --green-3: #97E1D7;
+  --purple: #514378;
+  --purple-3: #AEA6C2;
+  --grey-1: rgb(230, 230, 240);
+  --grey-3: rgb(210, 210, 230);
+  --grey-4: rgb(150, 150, 150);
+  --grey-5: rgb(100, 100, 100);
+  --dark-grey: rgb(32, 32, 32);
+
+  /* fuel colours*/
+  --Green_In: #aaffaa;
+  --Hydro: #99daff;
+  --Wind: #ccfcfc;
+  --Solar: #ffdfa7;
+  --Rooftop: #fff7ae;
+  --Fossil_In: #444444;
+  --Gas: #bbbbbb;
+  --Coal: #666666;
+
+  --y-scale-width: 40px;
+  --header-height: 135px;
+
+  --content-max-width: 1000px;
+}
+
+.green {  color: var(--green); }
+.purple { color: var(--purple); }
+
+.larger { font-size: 2em; }
+.smaller { font-size: 0.6em; }
+
+body {
+  font-family: open sans, Helvetica, Arial, sans-serif;
+  /*font-family: Arial, sans-serif;*/
+  /*background-color: #edfdf2;*/
+  /*background-color: #f8fdfa;*/
+  background-color: rgb(240, 240, 250);
+  margin: 0px;
+  /*font-weight: 300;*/
+}
+
+h1 {
+  color: var(--green);
+  font-weight: 300;
+  font-size: 60px;
+  line-height: 1;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h2 {
+  color: var(--green);
+  font-size: 40px;
+  font-weight: 300;
+}
+
+p, h4 {
+  margin-left: 20px;
+}
+
+.subheading {
+  text-align: center;
+  font-size: 20px;
+  margin: 0px 10px 30px 10px;
+}
+
+#buttons { 
+  margin-bottom: 20px;
+  text-align: center; 
+}
+
+#region-radios input[type="radio"] { display: none; }
+
+#region-radios label {
+  font-size: 2em;
+  font-weight: 200;
+  display: inline-block;
+  background-color: var(--grey-1);
+  padding: 8px 12px;
+  cursor: pointer;
+  border: 1px solid var(--border-color);
+}
+
+#region-radios label:hover {
+  background-color: var(--grey-3);
+}
+
+#region-radios input[type="radio"]:checked+label {
+  background-color: var(--pink);
+}
+
+#content {
+  background-color: rgb(248,248,255);
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+/*****************************************
+**************** Snapshot *****************/
+
+#snapshot {
+  max-width: var(--content-max-width);
+  margin: 1em auto;
+  text-align: center;
+}
+
+.tile-row {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#main-tile {
+  font-size: 2em;
+  flex: 2;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-tile .region-name {
+  font-weight: 400;
+}
+
+#current-greenness {
+  font-size: 3em;
+  line-height: 0.9em;
+  color: var(--green);
+}
+
+#next-to-main-tile {
+  flex: 1;
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+}
+
+.tile {
+  text-align: center;
+  background-color: white;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid var(--border-color);
+}
+
+.tile h3 {
+  font-weight: 200;
+  font-size: 1.5em;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.tile .highlight {
+  font-weight: 200;
+  font-size: 1.4em;
+  color: var(--green);
+}
+
+
+/*****************************************
+**************** Data "table" *****************/
+
+#table-heading {
+  max-width: var(--content-max-width);  
+  margin: 0em auto;
+}
+
+#table-heading h2 {
+  margin-top: 40px; 
+  margin-bottom: 0px; 
+}
+
+#table {
+  width: 93%;
+  max-width: var(--content-max-width);
+  margin: 1em auto;
+  display: flex;
+  position: relative; /* to allow right arrow to be positioned */
+}
+
+.left-col {
+  flex: 1;
+}
+.right-col {
+  overflow-x: hidden;
+  flex: 7;
+}
+
+#day-columns {
+  position: relative;
+  overflow-x: hidden;
+  /*width: var(--content-max-width);*/
+  transition: left 0.2s;
+  left: -85.7143%; /* start on 'today', 7th day, = 6/13ths of the full width*/
+  width: 185.71428%; /* show 7 out of 13 columns */
+
+}
+
+.table-row {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+}
+
+.left-axis {
+  margin-top: 10px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  position: relative;
+  justify-content: right;
+}
+
+.left-axis-header {
+  border-right: 1px solid var(--border-color);
+  height: var(--header-height);
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.weather-label {
+  position: relative;
+  padding-top: 40px;
+  width: 100%;
+}
+
+button {
+  background: none;
+  border: none;
+  padding: 3px;
+  height: 100%;
+  font-size: 2.5em;
+}
+
+button:hover { 
+  background-color: var(--grey-1);
+}
+
+.left-button, .right-button { 
+  /*display: none; */
+  cursor: pointer;
+  width: 50px;
+  color: var(--grey-5);
+}
+
+.left-weather .left-button {
+  position: absolute;
+  left: 70px;
+  height: var(--header-height);
+}
+
+.right-button {
+  position: absolute;
+  right: -50px;
+  height: var(--header-height);
+}
+
+.cell {
+  flex: 1;
+  flex-grow: 1;
+  margin: auto;
+  border-right: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.day-header, .day-label-bottom {
+  font-size: 1.2em;
+  line-height: 42px;
+  height: 42px;
+  border-top: 1px solid var(--border-color);
+}
+
+.greenness-cell {
+  padding-top: 10px;
+  font-size: 0.9em;
+  height: 80px; /* change var --header-height by same amount */
+}
+
+.max-greenness {
+  font-weight: 300;
+  font-size: 2em;
+  line-height: 105%;
+  color: var(--green);
+}
+
+.max-greenness-time {
+  font-size: 0.9em;
+}
+
+.left-weather {
+  /*padding-top: 11px;
+  padding-bottom: 11px;
+  border-right: 1px solid var(--border-color);*/
+  /*height: 80px;*/
+  height: 123px;
+  margin-top: 10px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  border-right: 1px solid var(--border-color);
+}
+
+.weather {
+  flex: 1;
+  height: 80px;
+  /*margin-top: 10px;*/
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-right: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+  /*border-bottom: 1px solid var(--border-color);*/
+}
+
+.weather-icon {
+  width: 55px;
+  height: 55px;
+}
+
+.temperature {
+  font-size: 0.9em;
+}
+
+/*****************************************
+**************** Charts *****************/
+
+.y-label { 
+  /*width: 160px;*/
+  position: absolute;
+  left: -60%;
+  right: 30%;
+  text-align: center;
+  font-size: 1.2em;
+  flex-grow: 1;
+  align-items: center;  
+
+}
+
+.y-label-subtitle {
+  /*padding-top: 0.3em;*/
+  font-size: 0.7em;
+}
+
+.legend {
+  text-align: left;
+  margin-left: 15%;
+}
+
+#fuel-legend { display: none; }
+.fuel-legend-spacer { display: none; }
+
+.chart-scale {
+  margin-left: auto;
+}
+
+svg {
+  display: block;
+}
+
+.chart-area {
+  flex: 7;
+  min-height: 200px;
+}
+
+.chart-area-Green_In { fill: var(--Green_In); }
+.chart-area-Hydro { fill: var(--Hydro); }
+.chart-area-Wind { fill: var(--Wind); }
+.chart-area-Solar { fill: var(--Solar); }
+.chart-area-Rooftop { fill: var(--Rooftop); }
+.chart-area-Fossil_In { fill: var(--Fossil_In); }
+.chart-area-Gas { fill: var(--Gas); }
+.chart-area-Coal { fill: var(--Coal); }
+
+.color-Green_In { color: var(--Green_In); }
+.color-Hydro { color: var(--Hydro); }
+.color-Wind { color: var(--Wind); }
+.color-Solar { color: var(--Solar); }
+.color-Rooftop { color: var(--Rooftop); }
+.color-Fossil_In { color: var(--Fossil_In); }
+.color-Gas { color: var(--Gas); }
+.color-Coal { color: var(--Coal); }
+
+.chart-wrapper {
+  margin-top: 10px; /* leave room for y-label, which is now above */
+}
+
+#fuel-chart {
+  padding-bottom: 10px;
+}
+
+.chart-area {
+  fill: #cc7;
+  stroke: none;
+}
+
+#greenness-chart .chart-line {
+  fill: none;
+  stroke: var(--green);
+  stroke-width: 3px;
+}
+
+#greenness-chart .chart-line-forecast {
+  fill: none;
+  stroke: var(--green-3);
+  stroke-dasharray: 6 4;
+  stroke-width: 3px;
+}
+
+#fuel-chart .chart-line {
+  fill: none;
+  stroke: var(--green);
+  stroke-dasharray: 6 3;
+  stroke-width: 4px;
+}
+
+#price-chart .chart-line {
+  fill: none;
+  stroke: var(--purple);
+  stroke-width: 3px;
+}
+
+#price-chart .chart-line-forecast {
+  fill: none;
+  stroke: var(--purple-3);
+  stroke-dasharray: 6 4;
+  stroke-width: 3px;
+}
+
+.tick line {
+  stroke: var(--border-color);
+  stroke-width: 1;
+}
+
+.domain {
+  stroke: var(--border-color);
+}
+
+.now-line {
+  stroke: rgb(120, 120, 120);
+  stroke-width: 2px;
+  stroke-dasharray: 6 3;
+}
+
+.highest-ever-greenness-line {
+  stroke: var(--green-3);
+  stroke-width: 1px;
+  stroke-dasharray: 2 2;
+}
+
+.highest-ever-greenness-text {
+  fill: var(--green-3);
+  font-size: 12px;
+}
+
+.zero-price-line {
+  stroke: var(--grey-4);
+  stroke-width: 1px;
+}
+
+.hover-line {
+  stroke: rgba(255, 140, 140, 0.8);
+  stroke-width: 4px;
+  /*visibility: hidden;*/
+}
+
+.chart-tooltip {
+  background-color: rgba(255, 140, 140, 0.8);
+  padding: 8px;
+  position: absolute;
+  pointer-events: none;
+  font-size: 0.8em;
+  /*visibility: hidden;*/
+}
+
+#last-updated {
+  text-align: right;
+  font-size: 0.8em;
+  padding-top: 20px;
+}
+
+
+
+/*****************************************
+************** Q&A Section ***************/
+
+.in-circle {
+  display: inline-block;
+  background: var(--pink);
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  line-height: 19px;
+  text-align: center;
+  font-size: 0.8em;
+  cursor: pointer;
+}
+
+.has-tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.has-tooltip .tooltip {
+  visibility: hidden;
+  width: 300px;
+  background-color: var(--grey-3);
+  padding: 10px;
+  text-align: center;
+  border-radius: 6px;
+  font-size: 14px;
+
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-top: 5px;
+  margin-left: -150px; /* Use half of the width (120/2 = 60), to center the tooltip */
+}
+
+.has-tooltip .big-tooltip {
+  text-align: left;
+}
+
+p .has-tooltip {
+  border-bottom: 2px dashed var(--pink);
+  cursor: pointer;
+  /*color: var(--pink);*/
+}
+
+
+
+#section2 {
+  margin: 5em auto;
+  max-width: var(--content-max-width);
+  width: 80%;
+}
+
+.collapsible-heading {
+  cursor: pointer;
+  padding: 18px;
+  text-align: left;
+  margin-bottom: 0px;
+}
+
+.collapsible-heading:hover {
+  background-color: var(--grey-3);
+}
+
+.collapsible {
+  /*padding: 0 18px;*/
+  /*background-color: #f1f1f1;*/
+  /*max-height: 0;*/
+  display: none;
+  /*overflow: hidden;*/
+  transition: max-height 0.5s ease-out;
+}
+
+.collapsible-heading:before {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  margin-right: 10px;
+  font-size: 0.7em;
+}
+
+.open-collapsible:before {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+  font-size: 0.7em;
+}
+
+h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+h4 {
+  margin-bottom: 7px;
+}
+
+p {
+  margin-block-start: 0.7em;
+}
+
+a {
+  color: black;
+}
+
+hr {
+  border-top: 1px solid var(--grey-3);
+  margin-top: 3em;
+
+}
+
+
+/*****************************************
+**************** Footer ******************/
+
+#footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: var(--dark-grey);
+}
+
+#footer-content {
+  color: var(--grey-1);
+  margin: 1em auto;
+  max-width: var(--content-max-width);
+  width: 80%;
+}
+
+#footer a {
+  color: var(--grey-1);
+}
+
+
+/*****************************************
+**************Media Queries***************/
+
+@media (max-width: 800px) {
+
+  html { overflow-x: hidden; }
+  body { 
+    width: 100%; 
+    overflow-x: hidden;
+    position: relative;
+  }
+
+  #table {
+    /*width: ;*/
+    margin-left: 0px;
+    margin-right: 20px;
+  }
+
+  h1 { 
+    font-size: 40px; 
+    margin: 20px 0px 10px 0px;
+  }
+
+  .subheading {
+    display: none;
+    text-align: center;
+    font-size: 14px;
+    margin: 0px 10px 10px 10px;
+  }
+
+  #content {
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+
+  #region-radios label {
+    font-size: 1.2em;
+    font-weight: 400;
+  }
+
+  .tile-row {
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  #main-tile {
+    font-size: 20px;
+  }
+
+  #next-to-main-tile {
+    gap: 10px;
+  }
+
+  .tile {
+    font-size: 15px;
+  }
+
+  .tile h3 { margin-bottom: 0px; }
+  .tile .highlight { font-weight: 400; }
+
+  #table-heading { text-align: center; }
+
+  .left-col { 
+    flex: none; 
+    width: var(--y-scale-width);
+  }
+
+  #day-columns {
+    position: relative;
+    overflow-x: hidden;
+    /*width: var(--content-max-width);*/
+    transition: left 0.2s;
+    left: -200%; /* start on 'today', 7th day, = 6/13ths of the full width*/;
+    /*width: 233.33333%;*/
+    width: 433.33333%; /* show 3 out of 13 days */
+  }
+
+  .left-button, .right-button { 
+    display: block;
+    font-size: 1.5em;
+    width: 30px;
+  }
+
+  .left-weather .left-button {
+    left: 0px;
+  }
+
+  .right-button {
+    right: -25px;
+  }
+
+  .y-label { 
+    top: -47px;
+    left: var(--y-scale-width);
+    width: 200px;
+    align-items: left;
+    text-align: left;
+    z-index: 10;
+  }
+
+  /* hide the "weather" label on mobile */
+  .left-weather .y-label { display: none; }
+
+  .left-axis {
+    position: relative;
+    margin-top: 60px;/* leave room for y-label, which is now above */
+  }
+
+  .chart-wrapper {
+    margin-top: 60px; /* leave room for y-label, which is now above */
+  }
+
+  #fuel-legend-left { display: none; }
+  .legend { margin-left: 0px; }
+
+  #fuel-legend { 
+    display: flex;
+    font-size: 14px;
+    flex-wrap: wrap;
+    position: relative;
+    width: 360px;
+    height: 120px;
+    padding-top: 5px;
+    padding-left: 10px;
+  }
+
+  .fuel-legend-spacer {
+    position: relative;
+    display: block;
+    height: 120px;
+    padding-top: 5px;
+  }
+
+  .legend-group {
+    padding-left: 20px;
+    flex: 1;
+  }
+
+  .legend-item {
+    padding-right: 5px;
+    display: block;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,8 @@
+# note: run this first, to get pytorch with cuda: pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
+# then can run pip install -r requirements.txt
+ipykernel
+jupyterlab
+pandas
+sklearn
+xgboost
+matplotlib

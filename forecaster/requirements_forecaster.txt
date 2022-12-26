@@ -1,0 +1,16 @@
+# if making changes here consider chaing also the other requirements file for general use in the root dir
+
+# pytorch currently 1.12.1 - saved models should be portable? but being safe. This is the cpu-only for inference.
+--find-links https://download.pytorch.org/whl/cpu/torch
+torch==1.12.1+cpu
+
+requests
+bs4
+lxml  # required for bs4, though not directly used
+boto3  # uploading to s3
+
+# fastai currently 2.7.1
+fastai>=2, <3
+
+# xgboost currently 1.6.1 - saved models should be portable? but being safe
+xgboost==1.6.1

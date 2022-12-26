@@ -1,0 +1,15 @@
+# if making changes here consider changing also the other requirements file for forecasting in ./forecaster
+
+# developed on python 3.9 
+
+jupyter
+
+# pytorch currently 1.12.1 - saved models should be portable? but being safe
+--find-links https://download.pytorch.org/whl/cu113
+torch==1.12.1
+
+# fastai currently 2.7.1
+fastai>=2, <3
+
+# xgboost currently 1.6.1 - saved models should be portable? but being safe
+xgboost==1.6.1

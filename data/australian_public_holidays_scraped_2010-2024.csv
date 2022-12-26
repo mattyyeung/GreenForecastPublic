@@ -1,0 +1,977 @@
+,Date,Public holiday,REGIONID
+0,2010-01-01,New Year's Day,NSW1
+1,2010-01-26,Australia Day,NSW1
+2,2010-04-02,Good Friday,NSW1
+3,2010-04-03,Easter Saturday,NSW1
+4,2010-04-04,Easter Sunday,NSW1
+5,2010-04-05,Easter Monday,NSW1
+6,2010-04-25,Anzac Day,NSW1
+7,2010-06-14,Queen's Birthday,NSW1
+8,2010-08-02,Bank Holiday/Picnic Day,NSW1
+9,2010-10-04,Labour Day/Queen's Birdthday,NSW1
+10,2010-12-25,Christmas Day,NSW1
+11,2010-12-26,Boxing Day/Proclamation Day,NSW1
+12,2010-12-27,Christmas Day Observance,NSW1
+13,2010-12-28,Boxing Day Observance/Proclamation Day Observance,NSW1
+0,2011-01-01,New Year's Day,NSW1
+1,2011-01-03,New Year's Day Observance,NSW1
+2,2011-01-26,Australia Day,NSW1
+3,2011-04-22,Good Friday,NSW1
+4,2011-04-23,Easter Saturday,NSW1
+5,2011-04-24,Easter Sunday,NSW1
+6,2011-04-25,Easter Monday,NSW1
+7,2011-04-26,Additional public holiday because Anzac day falling on week end/Easter Tuesday,NSW1
+8,2011-06-13,Queen's Birthday,NSW1
+9,2011-08-01,Bank Holiday/Picnic Day,NSW1
+10,2011-10-03,Labour Day/Queen's Birdthday,NSW1
+11,2011-12-25,Christmas Day,NSW1
+12,2011-12-26,Christmas Day Observance,NSW1
+13,2011-12-27,Boxing Day Observance/Proclamation Day Observance,NSW1
+0,2012-01-01,New Year's Day,NSW1
+1,2012-01-02,New Year's Day Observance,NSW1
+2,2012-01-26,Australia Day,NSW1
+3,2012-04-06,Good Friday,NSW1
+4,2012-04-07,Easter Saturday,NSW1
+5,2012-04-08,Easter Sunday,NSW1
+6,2012-04-09,Easter Monday,NSW1
+7,2012-04-25,Anzac Day,NSW1
+8,2012-06-11,Queen's Birthday,NSW1
+9,2012-08-06,Bank Holiday/Picnic Day,NSW1
+10,2012-10-01,Labour Day/Queen's Birdthday,NSW1
+11,2012-12-25,Christmas Day,NSW1
+12,2012-12-26,Boxing Day/Proclamation Day,NSW1
+0,2013-01-01,New Year's Day,NSW1
+1,2013-01-28,Australia Day Observance,NSW1
+2,2013-03-29,Good Friday,NSW1
+3,2013-03-30,Easter Saturday,NSW1
+4,2013-03-31,Easter Sunday,NSW1
+5,2013-04-01,Easter Monday,NSW1
+6,2013-04-25,Anzac Day,NSW1
+7,2013-06-10,Queen's Birthday,NSW1
+8,2013-08-05,Bank Holiday/Picnic Day,NSW1
+9,2013-10-07,Labour Day/Queen's Birdthday,NSW1
+10,2013-12-25,Christmas Day,NSW1
+11,2013-12-26,Boxing Day/Proclamation Day,NSW1
+0,2014-01-01,New Year's Day,NSW1
+1,2014-01-27,Australia Day Observance,NSW1
+2,2014-04-18,Good Friday,NSW1
+3,2014-04-19,Easter Saturday,NSW1
+4,2014-04-20,Easter Sunday,NSW1
+5,2014-04-21,Easter Monday,NSW1
+6,2014-04-25,Anzac Day,NSW1
+7,2014-06-09,Queen's Birthday,NSW1
+8,2014-08-04,Bank Holiday/Picnic Day,NSW1
+9,2014-10-06,Labour Day/Queen's Birdthday,NSW1
+10,2014-12-25,Christmas Day,NSW1
+11,2014-12-26,Boxing Day/Proclamation Day,NSW1
+0,2015-01-01,New Year's Day,NSW1
+1,2015-01-26,Australia Day,NSW1
+2,2015-04-03,Good Friday,NSW1
+3,2015-04-04,Easter Saturday,NSW1
+4,2015-04-05,Easter Sunday,NSW1
+5,2015-04-06,Easter Monday,NSW1
+6,2015-04-25,Anzac Day,NSW1
+7,2015-06-08,Queen's Birthday,NSW1
+8,2015-08-03,Bank Holiday/Picnic Day,NSW1
+9,2015-10-05,Labour Day/Queen's Birdthday,NSW1
+10,2015-12-25,Christmas Day,NSW1
+11,2015-12-26,Boxing Day/Proclamation Day,NSW1
+12,2015-12-28,Boxing Day Observance/Proclamation Day Observance,NSW1
+0,2016-01-01,New Year's Day,NSW1
+1,2016-01-26,Australia Day,NSW1
+2,2016-03-25,Good Friday,NSW1
+3,2016-03-26,Easter Saturday,NSW1
+4,2016-03-27,Easter Sunday,NSW1
+5,2016-03-28,Easter Monday,NSW1
+6,2016-04-25,Anzac Day,NSW1
+7,2016-06-13,Queen's Birthday,NSW1
+8,2016-08-01,Bank Holiday/Picnic Day,NSW1
+9,2016-10-03,Labour Day/Queen's Birdthday,NSW1
+10,2016-12-25,Christmas Day,NSW1
+11,2016-12-26,Christmas Day Observance,NSW1
+12,2016-12-27,Boxing Day Observance/Proclamation Day Observance,NSW1
+0,2017-01-01,New Year's Day,NSW1
+1,2017-01-02,New Year's Day Observance,NSW1
+2,2017-01-26,Australia Day,NSW1
+3,2017-04-14,Good Friday,NSW1
+4,2017-04-15,Easter Saturday,NSW1
+5,2017-04-16,Easter Sunday,NSW1
+6,2017-04-17,Easter Monday,NSW1
+7,2017-04-25,Anzac Day,NSW1
+8,2017-06-12,Queen's Birthday,NSW1
+9,2017-08-07,Bank Holiday/Picnic Day,NSW1
+10,2017-10-02,Labour Day/Queen's Birdthday,NSW1
+11,2017-12-25,Christmas Day,NSW1
+12,2017-12-26,Boxing Day/Proclamation Day,NSW1
+0,2018-01-01,New Year's Day,NSW1
+1,2018-01-26,Australia Day,NSW1
+2,2018-03-30,Good Friday,NSW1
+3,2018-03-31,Easter Saturday,NSW1
+4,2018-04-01,Easter Sunday,NSW1
+5,2018-04-02,Easter Monday,NSW1
+6,2018-04-25,Anzac Day,NSW1
+7,2018-06-11,Queen's Birthday,NSW1
+8,2018-08-06,Bank Holiday/Picnic Day,NSW1
+9,2018-10-01,Labour Day/Queen's Birdthday,NSW1
+10,2018-12-25,Christmas Day,NSW1
+11,2018-12-26,Boxing Day/Proclamation Day,NSW1
+0,2019-01-01,New Year's Day,NSW1
+1,2019-01-28,Australia Day Observance,NSW1
+2,2019-04-19,Good Friday,NSW1
+3,2019-04-20,Easter Saturday,NSW1
+4,2019-04-21,Easter Sunday,NSW1
+5,2019-04-22,Easter Monday,NSW1
+6,2019-04-25,Anzac Day,NSW1
+7,2019-06-10,Queen's Birthday,NSW1
+8,2019-08-05,Bank Holiday/Picnic Day,NSW1
+9,2019-10-07,Labour Day/Queen's Birdthday,NSW1
+10,2019-12-25,Christmas Day,NSW1
+11,2019-12-26,Boxing Day/Proclamation Day,NSW1
+0,2020-01-01,New Year's Day,NSW1
+1,2020-01-27,Australia Day Observance,NSW1
+2,2020-04-10,Good Friday,NSW1
+3,2020-04-11,Easter Saturday,NSW1
+4,2020-04-12,Easter Sunday,NSW1
+5,2020-04-13,Easter Monday,NSW1
+6,2020-04-25,Anzac Day,NSW1
+7,2020-06-08,Queen's Birthday,NSW1
+8,2020-08-03,Bank Holiday/Picnic Day,NSW1
+9,2020-10-05,Labour Day/Queen's Birdthday,NSW1
+10,2020-12-25,Christmas Day,NSW1
+11,2020-12-26,Boxing Day/Proclamation Day,NSW1
+12,2020-12-28,Boxing Day Observance/Proclamation Day Observance,NSW1
+0,2021-01-01,New Year's Day,NSW1
+1,2021-01-26,Australia Day,NSW1
+2,2021-04-02,Good Friday,NSW1
+3,2021-04-03,Easter Saturday,NSW1
+4,2021-04-04,Easter Sunday,NSW1
+5,2021-04-05,Easter Monday,NSW1
+6,2021-04-25,Anzac Day,NSW1
+7,2021-06-14,Queen's Birthday,NSW1
+8,2021-08-02,Bank Holiday/Picnic Day,NSW1
+9,2021-10-04,Labour Day/Queen's Birdthday,NSW1
+10,2021-12-25,Christmas Day,NSW1
+11,2021-12-26,Boxing Day/Proclamation Day,NSW1
+12,2021-12-27,Christmas Day Observance,NSW1
+13,2021-12-28,Boxing Day Observance/Proclamation Day Observance,NSW1
+0,2022-01-01,New Year's Day,NSW1
+1,2022-01-03,New Year's Day Observance,NSW1
+2,2022-01-26,Australia Day,NSW1
+3,2022-04-15,Good Friday,NSW1
+4,2022-04-16,Easter Saturday,NSW1
+5,2022-04-17,Easter Sunday,NSW1
+6,2022-04-18,Easter Monday,NSW1
+7,2022-04-25,Anzac Day,NSW1
+8,2022-06-13,Queen's Birthday,NSW1
+9,2022-08-01,Bank Holiday/Picnic Day,NSW1
+10,2022-09-22,National Day of Mourning,NSW1
+11,2022-10-03,Labour Day/Queen's Birdthday,NSW1
+12,2022-12-25,Christmas Day,NSW1
+13,2022-12-26,Christmas Day Observance,NSW1
+14,2022-12-27,Boxing Day Observance/Proclamation Day Observance,NSW1
+0,2023-01-01,New Year's Day,NSW1
+1,2023-01-02,New Year's Day Observance,NSW1
+2,2023-01-26,Australia Day,NSW1
+3,2023-04-07,Good Friday,NSW1
+4,2023-04-08,Easter Saturday,NSW1
+5,2023-04-09,Easter Sunday,NSW1
+6,2023-04-10,Easter Monday,NSW1
+7,2023-04-25,Anzac Day,NSW1
+8,2023-06-12,Queen's Birthday,NSW1
+9,2023-08-07,Bank Holiday/Picnic Day,NSW1
+10,2023-10-02,Labour Day/Queen's Birdthday,NSW1
+11,2023-12-25,Christmas Day,NSW1
+12,2023-12-26,Boxing Day/Proclamation Day,NSW1
+0,2024-01-01,New Year's Day,NSW1
+1,2024-01-26,Australia Day,NSW1
+2,2024-03-29,Good Friday,NSW1
+3,2024-03-30,Easter Saturday,NSW1
+4,2024-03-31,Easter Sunday,NSW1
+5,2024-04-01,Easter Monday,NSW1
+6,2024-04-25,Anzac Day,NSW1
+7,2024-06-10,Queen's Birthday,NSW1
+8,2024-08-05,Bank Holiday/Picnic Day,NSW1
+9,2024-10-07,Labour Day/Queen's Birdthday,NSW1
+10,2024-12-25,Christmas Day,NSW1
+11,2024-12-26,Boxing Day/Proclamation Day,NSW1
+0,2010-01-01,New Year's Day,QLD1
+1,2010-01-26,Australia Day,QLD1
+2,2010-04-02,Good Friday,QLD1
+3,2010-04-03,Easter Saturday,QLD1
+4,2010-04-04,Easter Sunday,QLD1
+5,2010-04-05,Easter Monday,QLD1
+6,2010-04-25,Anzac Day,QLD1
+7,2010-04-26,Anzac Day observance,QLD1
+8,2010-05-03,May Day/Labour Day,QLD1
+9,2010-08-11,Royal Queensland Show,QLD1
+10,2010-10-04,Labour Day/Queen's Birdthday,QLD1
+11,2010-12-25,Christmas Day,QLD1
+12,2010-12-26,Boxing Day/Proclamation Day,QLD1
+13,2010-12-27,Christmas Day Observance,QLD1
+14,2010-12-28,Boxing Day Observance/Proclamation Day Observance,QLD1
+0,2011-01-01,New Year's Day,QLD1
+1,2011-01-03,New Year's Day Observance,QLD1
+2,2011-01-26,Australia Day,QLD1
+3,2011-04-22,Good Friday,QLD1
+4,2011-04-23,Easter Saturday,QLD1
+5,2011-04-24,Easter Sunday,QLD1
+6,2011-04-25,Easter Monday,QLD1
+7,2011-04-26,Additional public holiday because Anzac day falling on week end/Easter Tuesday,QLD1
+8,2011-05-02,May Day/Labour Day,QLD1
+9,2011-08-10,Royal Queensland Show,QLD1
+10,2011-10-03,Labour Day/Queen's Birdthday,QLD1
+11,2011-12-25,Christmas Day,QLD1
+12,2011-12-26,Christmas Day Observance,QLD1
+13,2011-12-27,Boxing Day Observance/Proclamation Day Observance,QLD1
+0,2012-01-01,New Year's Day,QLD1
+1,2012-01-02,New Year's Day Observance,QLD1
+2,2012-01-26,Australia Day,QLD1
+3,2012-04-06,Good Friday,QLD1
+4,2012-04-07,Easter Saturday,QLD1
+5,2012-04-08,Easter Sunday,QLD1
+6,2012-04-09,Easter Monday,QLD1
+7,2012-04-25,Anzac Day,QLD1
+8,2012-05-07,May Day/Labour Day,QLD1
+9,2012-08-08,Royal Queensland Show,QLD1
+10,2012-10-01,Labour Day/Queen's Birdthday,QLD1
+11,2012-12-25,Christmas Day,QLD1
+12,2012-12-26,Boxing Day/Proclamation Day,QLD1
+0,2013-01-01,New Year's Day,QLD1
+1,2013-01-28,Australia Day Observance,QLD1
+2,2013-03-29,Good Friday,QLD1
+3,2013-03-30,Easter Saturday,QLD1
+4,2013-03-31,Easter Sunday,QLD1
+5,2013-04-01,Easter Monday,QLD1
+6,2013-04-25,Anzac Day,QLD1
+7,2013-05-06,May Day/Labour Day,QLD1
+8,2013-08-14,Royal Queensland Show,QLD1
+9,2013-10-07,Labour Day/Queen's Birdthday,QLD1
+10,2013-12-25,Christmas Day,QLD1
+11,2013-12-26,Boxing Day/Proclamation Day,QLD1
+0,2014-01-01,New Year's Day,QLD1
+1,2014-01-27,Australia Day Observance,QLD1
+2,2014-04-18,Good Friday,QLD1
+3,2014-04-19,Easter Saturday,QLD1
+4,2014-04-20,Easter Sunday,QLD1
+5,2014-04-21,Easter Monday,QLD1
+6,2014-04-25,Anzac Day,QLD1
+7,2014-05-05,May Day/Labour Day,QLD1
+8,2014-08-13,Royal Queensland Show,QLD1
+9,2014-10-06,Labour Day/Queen's Birdthday,QLD1
+10,2014-12-25,Christmas Day,QLD1
+11,2014-12-26,Boxing Day/Proclamation Day,QLD1
+0,2015-01-01,New Year's Day,QLD1
+1,2015-01-26,Australia Day,QLD1
+2,2015-04-03,Good Friday,QLD1
+3,2015-04-04,Easter Saturday,QLD1
+4,2015-04-05,Easter Sunday,QLD1
+5,2015-04-06,Easter Monday,QLD1
+6,2015-04-25,Anzac Day,QLD1
+7,2015-04-27,Anzac Day observance,QLD1
+8,2015-05-04,May Day/Labour Day,QLD1
+9,2015-08-12,Royal Queensland Show,QLD1
+10,2015-10-05,Labour Day/Queen's Birdthday,QLD1
+11,2015-12-25,Christmas Day,QLD1
+12,2015-12-26,Boxing Day/Proclamation Day,QLD1
+13,2015-12-28,Boxing Day Observance/Proclamation Day Observance,QLD1
+0,2016-01-01,New Year's Day,QLD1
+1,2016-01-26,Australia Day,QLD1
+2,2016-03-25,Good Friday,QLD1
+3,2016-03-26,Easter Saturday,QLD1
+4,2016-03-27,Easter Sunday,QLD1
+5,2016-03-28,Easter Monday,QLD1
+6,2016-04-25,Anzac Day,QLD1
+7,2016-05-02,May Day/Labour Day,QLD1
+8,2016-08-10,Royal Queensland Show,QLD1
+9,2016-10-03,Labour Day/Queen's Birdthday,QLD1
+10,2016-12-25,Christmas Day,QLD1
+11,2016-12-26,Christmas Day Observance,QLD1
+12,2016-12-27,Boxing Day Observance/Proclamation Day Observance,QLD1
+0,2017-01-01,New Year's Day,QLD1
+1,2017-01-02,New Year's Day Observance,QLD1
+2,2017-01-26,Australia Day,QLD1
+3,2017-04-14,Good Friday,QLD1
+4,2017-04-15,Easter Saturday,QLD1
+5,2017-04-16,Easter Sunday,QLD1
+6,2017-04-17,Easter Monday,QLD1
+7,2017-04-25,Anzac Day,QLD1
+8,2017-05-01,May Day/Labour Day,QLD1
+9,2017-08-09,Royal Queensland Show,QLD1
+10,2017-10-02,Labour Day/Queen's Birdthday,QLD1
+11,2017-12-25,Christmas Day,QLD1
+12,2017-12-26,Boxing Day/Proclamation Day,QLD1
+0,2018-01-01,New Year's Day,QLD1
+1,2018-01-26,Australia Day,QLD1
+2,2018-03-30,Good Friday,QLD1
+3,2018-03-31,Easter Saturday,QLD1
+4,2018-04-01,Easter Sunday,QLD1
+5,2018-04-02,Easter Monday,QLD1
+6,2018-04-25,Anzac Day,QLD1
+7,2018-05-07,May Day/Labour Day,QLD1
+8,2018-08-08,Royal Queensland Show,QLD1
+9,2018-10-01,Labour Day/Queen's Birdthday,QLD1
+10,2018-12-25,Christmas Day,QLD1
+11,2018-12-26,Boxing Day/Proclamation Day,QLD1
+0,2019-01-01,New Year's Day,QLD1
+1,2019-01-28,Australia Day Observance,QLD1
+2,2019-04-19,Good Friday,QLD1
+3,2019-04-20,Easter Saturday,QLD1
+4,2019-04-21,Easter Sunday,QLD1
+5,2019-04-22,Easter Monday,QLD1
+6,2019-04-25,Anzac Day,QLD1
+7,2019-05-06,May Day/Labour Day,QLD1
+8,2019-08-14,Royal Queensland Show,QLD1
+9,2019-10-07,Labour Day/Queen's Birdthday,QLD1
+10,2019-12-25,Christmas Day,QLD1
+11,2019-12-26,Boxing Day/Proclamation Day,QLD1
+0,2020-01-01,New Year's Day,QLD1
+1,2020-01-27,Australia Day Observance,QLD1
+2,2020-04-10,Good Friday,QLD1
+3,2020-04-11,Easter Saturday,QLD1
+4,2020-04-12,Easter Sunday,QLD1
+5,2020-04-13,Easter Monday,QLD1
+6,2020-04-25,Anzac Day,QLD1
+7,2020-04-27,Anzac Day observance,QLD1
+8,2020-05-04,May Day/Labour Day,QLD1
+9,2020-08-14,Royal Queensland Show,QLD1
+10,2020-10-05,Labour Day/Queen's Birdthday,QLD1
+11,2020-12-25,Christmas Day,QLD1
+12,2020-12-26,Boxing Day/Proclamation Day,QLD1
+13,2020-12-28,Boxing Day Observance/Proclamation Day Observance,QLD1
+0,2021-01-01,New Year's Day,QLD1
+1,2021-01-26,Australia Day,QLD1
+2,2021-04-02,Good Friday,QLD1
+3,2021-04-03,Easter Saturday,QLD1
+4,2021-04-04,Easter Sunday,QLD1
+5,2021-04-05,Easter Monday,QLD1
+6,2021-04-25,Anzac Day,QLD1
+7,2021-04-26,Anzac Day observance,QLD1
+8,2021-05-03,May Day/Labour Day,QLD1
+9,2021-10-04,Labour Day/Queen's Birdthday,QLD1
+10,2021-12-25,Christmas Day,QLD1
+11,2021-12-26,Boxing Day/Proclamation Day,QLD1
+12,2021-12-27,Christmas Day Observance,QLD1
+13,2021-12-28,Boxing Day Observance/Proclamation Day Observance,QLD1
+0,2022-01-01,New Year's Day,QLD1
+1,2022-01-03,New Year's Day Observance,QLD1
+2,2022-01-26,Australia Day,QLD1
+3,2022-04-15,Good Friday,QLD1
+4,2022-04-16,Easter Saturday,QLD1
+5,2022-04-17,Easter Sunday,QLD1
+6,2022-04-18,Easter Monday,QLD1
+7,2022-04-25,Anzac Day,QLD1
+8,2022-05-02,May Day/Labour Day,QLD1
+9,2022-08-10,Royal Queensland Show,QLD1
+10,2022-09-22,National Day of Mourning,QLD1
+11,2022-10-03,Labour Day/Queen's Birdthday,QLD1
+12,2022-12-25,Christmas Day,QLD1
+13,2022-12-26,Christmas Day Observance,QLD1
+14,2022-12-27,Boxing Day Observance/Proclamation Day Observance,QLD1
+0,2023-01-01,New Year's Day,QLD1
+1,2023-01-02,New Year's Day Observance,QLD1
+2,2023-01-26,Australia Day,QLD1
+3,2023-04-07,Good Friday,QLD1
+4,2023-04-08,Easter Saturday,QLD1
+5,2023-04-09,Easter Sunday,QLD1
+6,2023-04-10,Easter Monday,QLD1
+7,2023-04-25,Anzac Day,QLD1
+8,2023-05-01,May Day/Labour Day,QLD1
+9,2023-08-09,Royal Queensland Show,QLD1
+10,2023-10-02,Labour Day/Queen's Birdthday,QLD1
+11,2023-12-25,Christmas Day,QLD1
+12,2023-12-26,Boxing Day/Proclamation Day,QLD1
+0,2024-01-01,New Year's Day,QLD1
+1,2024-01-26,Australia Day,QLD1
+2,2024-03-29,Good Friday,QLD1
+3,2024-03-30,Easter Saturday,QLD1
+4,2024-03-31,Easter Sunday,QLD1
+5,2024-04-01,Easter Monday,QLD1
+6,2024-04-25,Anzac Day,QLD1
+7,2024-05-06,May Day/Labour Day,QLD1
+8,2024-08-14,Royal Queensland Show,QLD1
+9,2024-10-07,Labour Day/Queen's Birdthday,QLD1
+10,2024-12-25,Christmas Day,QLD1
+11,2024-12-26,Boxing Day/Proclamation Day,QLD1
+0,2010-01-01,New Year's Day,SA1
+1,2010-01-26,Australia Day,SA1
+2,2010-03-08,Canberra Day/Adelaide Cup/Eight Hours Day/Labour Day,SA1
+3,2010-04-02,Good Friday,SA1
+4,2010-04-03,Easter Saturday,SA1
+5,2010-04-04,Easter Sunday,SA1
+6,2010-04-05,Easter Monday,SA1
+7,2010-04-25,Anzac Day,SA1
+8,2010-04-26,Anzac Day observance,SA1
+9,2010-06-14,Queen's Birthday,SA1
+10,2010-10-04,Labour Day/Queen's Birdthday,SA1
+11,2010-12-25,Christmas Day,SA1
+12,2010-12-26,Boxing Day/Proclamation Day,SA1
+13,2010-12-27,Christmas Day Observance,SA1
+14,2010-12-28,Boxing Day Observance/Proclamation Day Observance,SA1
+0,2011-01-01,New Year's Day,SA1
+1,2011-01-03,New Year's Day Observance,SA1
+2,2011-01-26,Australia Day,SA1
+3,2011-03-14,Canberra Day/Adelaide Cup/Eight Hours Day/Labour Day,SA1
+4,2011-04-22,Good Friday,SA1
+5,2011-04-23,Easter Saturday,SA1
+6,2011-04-24,Easter Sunday,SA1
+7,2011-04-25,Easter Monday,SA1
+8,2011-04-26,Additional public holiday because Anzac day falling on week end/Easter Tuesday,SA1
+9,2011-06-13,Queen's Birthday,SA1
+10,2011-10-03,Labour Day/Queen's Birdthday,SA1
+11,2011-12-25,Christmas Day,SA1
+12,2011-12-26,Christmas Day Observance,SA1
+13,2011-12-27,Boxing Day Observance/Proclamation Day Observance,SA1
+0,2012-01-01,New Year's Day,SA1
+1,2012-01-02,New Year's Day Observance,SA1
+2,2012-01-26,Australia Day,SA1
+3,2012-03-12,Canberra Day/Adelaide Cup/Eight Hours Day/Labour Day,SA1
+4,2012-04-06,Good Friday,SA1
+5,2012-04-07,Easter Saturday,SA1
+6,2012-04-08,Easter Sunday,SA1
+7,2012-04-09,Easter Monday,SA1
+8,2012-04-25,Anzac Day,SA1
+9,2012-06-11,Queen's Birthday,SA1
+10,2012-10-01,Labour Day/Queen's Birdthday,SA1
+11,2012-12-25,Christmas Day,SA1
+12,2012-12-26,Boxing Day/Proclamation Day,SA1
+0,2013-01-01,New Year's Day,SA1
+1,2013-01-28,Australia Day Observance,SA1
+2,2013-03-11,Canberra Day/Adelaide Cup/Eight Hours Day/Labour Day,SA1
+3,2013-03-29,Good Friday,SA1
+4,2013-03-30,Easter Saturday,SA1
+5,2013-03-31,Easter Sunday,SA1
+6,2013-04-01,Easter Monday,SA1
+7,2013-04-25,Anzac Day,SA1
+8,2013-06-10,Queen's Birthday,SA1
+9,2013-10-07,Labour Day/Queen's Birdthday,SA1
+10,2013-12-25,Christmas Day,SA1
+11,2013-12-26,Boxing Day/Proclamation Day,SA1
+0,2014-01-01,New Year's Day,SA1
+1,2014-01-27,Australia Day Observance,SA1
+2,2014-03-10,Canberra Day/Adelaide Cup/Eight Hours Day/Labour Day,SA1
+3,2014-04-18,Good Friday,SA1
+4,2014-04-19,Easter Saturday,SA1
+5,2014-04-20,Easter Sunday,SA1
+6,2014-04-21,Easter Monday,SA1
+7,2014-04-25,Anzac Day,SA1
+8,2014-06-09,Queen's Birthday,SA1
+9,2014-10-06,Labour Day/Queen's Birdthday,SA1
+10,2014-12-25,Christmas Day,SA1
+11,2014-12-26,Boxing Day/Proclamation Day,SA1
+0,2015-01-01,New Year's Day,SA1
+1,2015-01-26,Australia Day,SA1
+2,2015-03-09,Canberra Day/Adelaide Cup/Eight Hours Day/Labour Day,SA1
+3,2015-04-03,Good Friday,SA1
+4,2015-04-04,Easter Saturday,SA1
+5,2015-04-05,Easter Sunday,SA1
+6,2015-04-06,Easter Monday,SA1
+7,2015-04-25,Anzac Day,SA1
+8,2015-04-27,Anzac Day observance,SA1
+9,2015-06-08,Queen's Birthday,SA1
+10,2015-10-05,Labour Day/Queen's Birdthday,SA1
+11,2015-12-25,Christmas Day,SA1
+12,2015-12-26,Boxing Day/Proclamation Day,SA1
+13,2015-12-28,Boxing Day Observance/Proclamation Day Observance,SA1
+0,2016-01-01,New Year's Day,SA1
+1,2016-01-26,Australia Day,SA1
+2,2016-03-14,Canberra Day/Adelaide Cup/Eight Hours Day/Labour Day,SA1
+3,2016-03-25,Good Friday,SA1
+4,2016-03-26,Easter Saturday,SA1
+5,2016-03-27,Easter Sunday,SA1
+6,2016-03-28,Easter Monday,SA1
+7,2016-04-25,Anzac Day,SA1
+8,2016-06-13,Queen's Birthday,SA1
+9,2016-10-03,Labour Day/Queen's Birdthday,SA1
+10,2016-12-25,Christmas Day,SA1
+11,2016-12-26,Christmas Day Observance,SA1
+12,2016-12-27,Boxing Day Observance/Proclamation Day Observance,SA1
+0,2017-01-01,New Year's Day,SA1
+1,2017-01-02,New Year's Day Observance,SA1
+2,2017-01-26,Australia Day,SA1
+3,2017-03-13,Canberra Day/Adelaide Cup/Eight Hours Day/Labour Day,SA1
+4,2017-04-14,Good Friday,SA1
+5,2017-04-15,Easter Saturday,SA1
+6,2017-04-16,Easter Sunday,SA1
+7,2017-04-17,Easter Monday,SA1
+8,2017-04-25,Anzac Day,SA1
+9,2017-06-12,Queen's Birthday,SA1
+10,2017-10-02,Labour Day/Queen's Birdthday,SA1
+11,2017-12-25,Christmas Day,SA1
+12,2017-12-26,Boxing Day/Proclamation Day,SA1
+0,2018-01-01,New Year's Day,SA1
+1,2018-01-26,Australia Day,SA1
+2,2018-03-12,Canberra Day/Adelaide Cup/Eight Hours Day/Labour Day,SA1
+3,2018-03-30,Good Friday,SA1
+4,2018-03-31,Easter Saturday,SA1
+5,2018-04-01,Easter Sunday,SA1
+6,2018-04-02,Easter Monday,SA1
+7,2018-04-25,Anzac Day,SA1
+8,2018-06-11,Queen's Birthday,SA1
+9,2018-10-01,Labour Day/Queen's Birdthday,SA1
+10,2018-12-25,Christmas Day,SA1
+11,2018-12-26,Boxing Day/Proclamation Day,SA1
+0,2019-01-01,New Year's Day,SA1
+1,2019-01-28,Australia Day Observance,SA1
+2,2019-03-11,Canberra Day/Adelaide Cup/Eight Hours Day/Labour Day,SA1
+3,2019-04-19,Good Friday,SA1
+4,2019-04-20,Easter Saturday,SA1
+5,2019-04-21,Easter Sunday,SA1
+6,2019-04-22,Easter Monday,SA1
+7,2019-04-25,Anzac Day,SA1
+8,2019-06-10,Queen's Birthday,SA1
+9,2019-10-07,Labour Day/Queen's Birdthday,SA1
+10,2019-12-25,Christmas Day,SA1
+11,2019-12-26,Boxing Day/Proclamation Day,SA1
+0,2020-01-01,New Year's Day,SA1
+1,2020-01-27,Australia Day Observance,SA1
+2,2020-03-09,Canberra Day/Adelaide Cup/Eight Hours Day/Labour Day,SA1
+3,2020-04-10,Good Friday,SA1
+4,2020-04-11,Easter Saturday,SA1
+5,2020-04-12,Easter Sunday,SA1
+6,2020-04-13,Easter Monday,SA1
+7,2020-04-25,Anzac Day,SA1
+8,2020-04-27,Anzac Day observance,SA1
+9,2020-06-08,Queen's Birthday,SA1
+10,2020-10-05,Labour Day/Queen's Birdthday,SA1
+11,2020-12-25,Christmas Day,SA1
+12,2020-12-26,Boxing Day/Proclamation Day,SA1
+13,2020-12-28,Boxing Day Observance/Proclamation Day Observance,SA1
+0,2021-01-01,New Year's Day,SA1
+1,2021-01-26,Australia Day,SA1
+2,2021-03-08,Canberra Day/Adelaide Cup/Eight Hours Day/Labour Day,SA1
+3,2021-04-02,Good Friday,SA1
+4,2021-04-03,Easter Saturday,SA1
+5,2021-04-04,Easter Sunday,SA1
+6,2021-04-05,Easter Monday,SA1
+7,2021-04-25,Anzac Day,SA1
+8,2021-04-26,Anzac Day observance,SA1
+9,2021-06-14,Queen's Birthday,SA1
+10,2021-10-04,Labour Day/Queen's Birdthday,SA1
+11,2021-12-25,Christmas Day,SA1
+12,2021-12-26,Boxing Day/Proclamation Day,SA1
+13,2021-12-27,Christmas Day Observance,SA1
+14,2021-12-28,Boxing Day Observance/Proclamation Day Observance,SA1
+0,2022-01-01,New Year's Day,SA1
+1,2022-01-03,New Year's Day Observance,SA1
+2,2022-01-26,Australia Day,SA1
+3,2022-03-14,Canberra Day/Adelaide Cup/Eight Hours Day/Labour Day,SA1
+4,2022-04-15,Good Friday,SA1
+5,2022-04-16,Easter Saturday,SA1
+6,2022-04-17,Easter Sunday,SA1
+7,2022-04-18,Easter Monday,SA1
+8,2022-04-25,Anzac Day,SA1
+9,2022-06-13,Queen's Birthday,SA1
+10,2022-09-22,National Day of Mourning,SA1
+11,2022-10-03,Labour Day/Queen's Birdthday,SA1
+12,2022-12-25,Christmas Day,SA1
+13,2022-12-26,Christmas Day Observance,SA1
+14,2022-12-27,Boxing Day Observance/Proclamation Day Observance,SA1
+0,2023-01-01,New Year's Day,SA1
+1,2023-01-02,New Year's Day Observance,SA1
+2,2023-01-26,Australia Day,SA1
+3,2023-03-13,Canberra Day/Adelaide Cup/Eight Hours Day/Labour Day,SA1
+4,2023-04-07,Good Friday,SA1
+5,2023-04-08,Easter Saturday,SA1
+6,2023-04-09,Easter Sunday,SA1
+7,2023-04-10,Easter Monday,SA1
+8,2023-04-25,Anzac Day,SA1
+9,2023-06-12,Queen's Birthday,SA1
+10,2023-10-02,Labour Day/Queen's Birdthday,SA1
+11,2023-12-25,Christmas Day,SA1
+12,2023-12-26,Boxing Day/Proclamation Day,SA1
+0,2024-01-01,New Year's Day,SA1
+1,2024-01-26,Australia Day,SA1
+2,2024-03-11,Canberra Day/Adelaide Cup/Eight Hours Day/Labour Day,SA1
+3,2024-03-29,Good Friday,SA1
+4,2024-03-30,Easter Saturday,SA1
+5,2024-03-31,Easter Sunday,SA1
+6,2024-04-01,Easter Monday,SA1
+7,2024-04-25,Anzac Day,SA1
+8,2024-06-10,Queen's Birthday,SA1
+9,2024-10-07,Labour Day/Queen's Birdthday,SA1
+10,2024-12-25,Christmas Day,SA1
+11,2024-12-26,Boxing Day/Proclamation Day,SA1
+0,2010-01-01,New Year's Day,TAS1
+1,2010-01-26,Australia Day,TAS1
+2,2010-03-08,Canberra Day/Adelaide Cup/Eight Hours Day/Labour Day,TAS1
+3,2010-04-02,Good Friday,TAS1
+4,2010-04-05,Easter Monday,TAS1
+5,2010-04-06,Easter Tuesday,TAS1
+6,2010-04-25,Anzac Day,TAS1
+7,2010-06-14,Queen's Birthday,TAS1
+8,2010-11-01,Recreation Day,TAS1
+9,2010-12-25,Christmas Day,TAS1
+10,2010-12-26,Boxing Day/Proclamation Day,TAS1
+11,2010-12-27,Christmas Day Observance,TAS1
+12,2010-12-28,Boxing Day Observance/Proclamation Day Observance,TAS1
+0,2011-01-01,New Year's Day,TAS1
+1,2011-01-03,New Year's Day Observance,TAS1
+2,2011-01-26,Australia Day,TAS1
+3,2011-03-14,Canberra Day/Adelaide Cup/Eight Hours Day/Labour Day,TAS1
+4,2011-04-22,Good Friday,TAS1
+5,2011-04-25,Easter Monday,TAS1
+6,2011-04-26,Additional public holiday because Anzac day falling on week end/Easter Tuesday,TAS1
+7,2011-06-13,Queen's Birthday,TAS1
+8,2011-11-07,Recreation Day,TAS1
+9,2011-12-25,Christmas Day,TAS1
+10,2011-12-26,Christmas Day Observance,TAS1
+11,2011-12-27,Boxing Day Observance/Proclamation Day Observance,TAS1
+0,2012-01-01,New Year's Day,TAS1
+1,2012-01-02,New Year's Day Observance,TAS1
+2,2012-01-26,Australia Day,TAS1
+3,2012-03-12,Canberra Day/Adelaide Cup/Eight Hours Day/Labour Day,TAS1
+4,2012-04-06,Good Friday,TAS1
+5,2012-04-09,Easter Monday,TAS1
+6,2012-04-10,Easter Tuesday,TAS1
+7,2012-04-25,Anzac Day,TAS1
+8,2012-06-11,Queen's Birthday,TAS1
+9,2012-11-05,Recreation Day,TAS1
+10,2012-12-25,Christmas Day,TAS1
+11,2012-12-26,Boxing Day/Proclamation Day,TAS1
+0,2013-01-01,New Year's Day,TAS1
+1,2013-01-28,Australia Day Observance,TAS1
+2,2013-03-11,Canberra Day/Adelaide Cup/Eight Hours Day/Labour Day,TAS1
+3,2013-03-29,Good Friday,TAS1
+4,2013-04-01,Easter Monday,TAS1
+5,2013-04-02,Easter Tuesday,TAS1
+6,2013-04-25,Anzac Day,TAS1
+7,2013-06-10,Queen's Birthday,TAS1
+8,2013-11-04,Recreation Day,TAS1
+9,2013-12-25,Christmas Day,TAS1
+10,2013-12-26,Boxing Day/Proclamation Day,TAS1
+0,2014-01-01,New Year's Day,TAS1
+1,2014-01-27,Australia Day Observance,TAS1
+2,2014-03-10,Canberra Day/Adelaide Cup/Eight Hours Day/Labour Day,TAS1
+3,2014-04-18,Good Friday,TAS1
+4,2014-04-21,Easter Monday,TAS1
+5,2014-04-22,Easter Tuesday,TAS1
+6,2014-04-25,Anzac Day,TAS1
+7,2014-06-09,Queen's Birthday,TAS1
+8,2014-11-03,Recreation Day,TAS1
+9,2014-12-25,Christmas Day,TAS1
+10,2014-12-26,Boxing Day/Proclamation Day,TAS1
+0,2015-01-01,New Year's Day,TAS1
+1,2015-01-26,Australia Day,TAS1
+2,2015-03-09,Canberra Day/Adelaide Cup/Eight Hours Day/Labour Day,TAS1
+3,2015-04-03,Good Friday,TAS1
+4,2015-04-06,Easter Monday,TAS1
+5,2015-04-07,Easter Tuesday,TAS1
+6,2015-04-25,Anzac Day,TAS1
+7,2015-06-08,Queen's Birthday,TAS1
+8,2015-11-02,Recreation Day,TAS1
+9,2015-12-25,Christmas Day,TAS1
+10,2015-12-26,Boxing Day/Proclamation Day,TAS1
+11,2015-12-28,Boxing Day Observance/Proclamation Day Observance,TAS1
+0,2016-01-01,New Year's Day,TAS1
+1,2016-01-26,Australia Day,TAS1
+2,2016-03-14,Canberra Day/Adelaide Cup/Eight Hours Day/Labour Day,TAS1
+3,2016-03-25,Good Friday,TAS1
+4,2016-03-28,Easter Monday,TAS1
+5,2016-03-29,Easter Tuesday,TAS1
+6,2016-04-25,Anzac Day,TAS1
+7,2016-06-13,Queen's Birthday,TAS1
+8,2016-11-07,Recreation Day,TAS1
+9,2016-12-25,Christmas Day,TAS1
+10,2016-12-26,Christmas Day Observance,TAS1
+11,2016-12-27,Boxing Day Observance/Proclamation Day Observance,TAS1
+0,2017-01-01,New Year's Day,TAS1
+1,2017-01-02,New Year's Day Observance,TAS1
+2,2017-01-26,Australia Day,TAS1
+3,2017-03-13,Canberra Day/Adelaide Cup/Eight Hours Day/Labour Day,TAS1
+4,2017-04-14,Good Friday,TAS1
+5,2017-04-17,Easter Monday,TAS1
+6,2017-04-18,Easter Tuesday,TAS1
+7,2017-04-25,Anzac Day,TAS1
+8,2017-06-12,Queen's Birthday,TAS1
+9,2017-11-06,Recreation Day,TAS1
+10,2017-12-25,Christmas Day,TAS1
+11,2017-12-26,Boxing Day/Proclamation Day,TAS1
+0,2018-01-01,New Year's Day,TAS1
+1,2018-01-26,Australia Day,TAS1
+2,2018-03-12,Canberra Day/Adelaide Cup/Eight Hours Day/Labour Day,TAS1
+3,2018-03-30,Good Friday,TAS1
+4,2018-04-02,Easter Monday,TAS1
+5,2018-04-03,Easter Tuesday,TAS1
+6,2018-04-25,Anzac Day,TAS1
+7,2018-06-11,Queen's Birthday,TAS1
+8,2018-11-05,Recreation Day,TAS1
+9,2018-12-25,Christmas Day,TAS1
+10,2018-12-26,Boxing Day/Proclamation Day,TAS1
+0,2019-01-01,New Year's Day,TAS1
+1,2019-01-28,Australia Day Observance,TAS1
+2,2019-03-11,Canberra Day/Adelaide Cup/Eight Hours Day/Labour Day,TAS1
+3,2019-04-19,Good Friday,TAS1
+4,2019-04-22,Easter Monday,TAS1
+5,2019-04-23,Easter Tuesday,TAS1
+6,2019-04-25,Anzac Day,TAS1
+7,2019-06-10,Queen's Birthday,TAS1
+8,2019-11-04,Recreation Day,TAS1
+9,2019-12-25,Christmas Day,TAS1
+10,2019-12-26,Boxing Day/Proclamation Day,TAS1
+0,2020-01-01,New Year's Day,TAS1
+1,2020-01-27,Australia Day Observance,TAS1
+2,2020-03-09,Canberra Day/Adelaide Cup/Eight Hours Day/Labour Day,TAS1
+3,2020-04-10,Good Friday,TAS1
+4,2020-04-13,Easter Monday,TAS1
+5,2020-04-14,Easter Tuesday,TAS1
+6,2020-04-25,Anzac Day,TAS1
+7,2020-06-08,Queen's Birthday,TAS1
+8,2020-11-02,Recreation Day,TAS1
+9,2020-12-25,Christmas Day,TAS1
+10,2020-12-26,Boxing Day/Proclamation Day,TAS1
+11,2020-12-28,Boxing Day Observance/Proclamation Day Observance,TAS1
+0,2021-01-01,New Year's Day,TAS1
+1,2021-01-26,Australia Day,TAS1
+2,2021-03-08,Canberra Day/Adelaide Cup/Eight Hours Day/Labour Day,TAS1
+3,2021-04-02,Good Friday,TAS1
+4,2021-04-05,Easter Monday,TAS1
+5,2021-04-06,Easter Tuesday,TAS1
+6,2021-04-25,Anzac Day,TAS1
+7,2021-06-14,Queen's Birthday,TAS1
+8,2021-11-01,Recreation Day,TAS1
+9,2021-12-25,Christmas Day,TAS1
+10,2021-12-26,Boxing Day/Proclamation Day,TAS1
+11,2021-12-27,Christmas Day Observance,TAS1
+12,2021-12-28,Boxing Day Observance/Proclamation Day Observance,TAS1
+0,2022-01-01,New Year's Day,TAS1
+1,2022-01-03,New Year's Day Observance,TAS1
+2,2022-01-26,Australia Day,TAS1
+3,2022-03-14,Canberra Day/Adelaide Cup/Eight Hours Day/Labour Day,TAS1
+4,2022-04-15,Good Friday,TAS1
+5,2022-04-18,Easter Monday,TAS1
+6,2022-04-19,Easter Tuesday,TAS1
+7,2022-04-25,Anzac Day,TAS1
+8,2022-06-13,Queen's Birthday,TAS1
+9,2022-09-22,National Day of Mourning,TAS1
+10,2022-11-07,Recreation Day,TAS1
+11,2022-12-25,Christmas Day,TAS1
+12,2022-12-26,Christmas Day Observance,TAS1
+13,2022-12-27,Boxing Day Observance/Proclamation Day Observance,TAS1
+0,2023-01-01,New Year's Day,TAS1
+1,2023-01-02,New Year's Day Observance,TAS1
+2,2023-01-26,Australia Day,TAS1
+3,2023-03-13,Canberra Day/Adelaide Cup/Eight Hours Day/Labour Day,TAS1
+4,2023-04-07,Good Friday,TAS1
+5,2023-04-10,Easter Monday,TAS1
+6,2023-04-11,Easter Tuesday,TAS1
+7,2023-04-25,Anzac Day,TAS1
+8,2023-06-12,Queen's Birthday,TAS1
+9,2023-11-06,Recreation Day,TAS1
+10,2023-12-25,Christmas Day,TAS1
+11,2023-12-26,Boxing Day/Proclamation Day,TAS1
+0,2024-01-01,New Year's Day,TAS1
+1,2024-01-26,Australia Day,TAS1
+2,2024-03-11,Canberra Day/Adelaide Cup/Eight Hours Day/Labour Day,TAS1
+3,2024-03-29,Good Friday,TAS1
+4,2024-04-01,Easter Monday,TAS1
+5,2024-04-02,Easter Tuesday,TAS1
+6,2024-04-25,Anzac Day,TAS1
+7,2024-06-10,Queen's Birthday,TAS1
+8,2024-11-04,Recreation Day,TAS1
+9,2024-12-25,Christmas Day,TAS1
+10,2024-12-26,Boxing Day/Proclamation Day,TAS1
+0,2010-01-01,New Year's Day,VIC1
+1,2010-01-26,Australia Day,VIC1
+2,2010-03-08,Canberra Day/Adelaide Cup/Eight Hours Day/Labour Day,VIC1
+3,2010-04-02,Good Friday,VIC1
+4,2010-04-03,Easter Saturday,VIC1
+5,2010-04-04,Easter Sunday,VIC1
+6,2010-04-05,Easter Monday,VIC1
+7,2010-04-25,Anzac Day,VIC1
+8,2010-06-14,Queen's Birthday,VIC1
+9,2010-11-02,Melbourne Cup,VIC1
+10,2010-12-25,Christmas Day,VIC1
+11,2010-12-26,Boxing Day/Proclamation Day,VIC1
+12,2010-12-27,Christmas Day Observance,VIC1
+13,2010-12-28,Boxing Day Observance/Proclamation Day Observance,VIC1
+0,2011-01-01,New Year's Day,VIC1
+1,2011-01-03,New Year's Day Observance,VIC1
+2,2011-01-26,Australia Day,VIC1
+3,2011-03-14,Canberra Day/Adelaide Cup/Eight Hours Day/Labour Day,VIC1
+4,2011-04-22,Good Friday,VIC1
+5,2011-04-23,Easter Saturday,VIC1
+6,2011-04-24,Easter Sunday,VIC1
+7,2011-04-25,Easter Monday,VIC1
+8,2011-04-26,Additional public holiday because Anzac day falling on week end/Easter Tuesday,VIC1
+9,2011-06-13,Queen's Birthday,VIC1
+10,2011-11-01,Melbourne Cup,VIC1
+11,2011-12-25,Christmas Day,VIC1
+12,2011-12-26,Christmas Day Observance,VIC1
+13,2011-12-27,Boxing Day Observance/Proclamation Day Observance,VIC1
+0,2012-01-01,New Year's Day,VIC1
+1,2012-01-02,New Year's Day Observance,VIC1
+2,2012-01-26,Australia Day,VIC1
+3,2012-03-12,Canberra Day/Adelaide Cup/Eight Hours Day/Labour Day,VIC1
+4,2012-04-06,Good Friday,VIC1
+5,2012-04-07,Easter Saturday,VIC1
+6,2012-04-08,Easter Sunday,VIC1
+7,2012-04-09,Easter Monday,VIC1
+8,2012-04-25,Anzac Day,VIC1
+9,2012-06-11,Queen's Birthday,VIC1
+10,2012-11-06,Melbourne Cup,VIC1
+11,2012-12-25,Christmas Day,VIC1
+12,2012-12-26,Boxing Day/Proclamation Day,VIC1
+0,2013-01-01,New Year's Day,VIC1
+1,2013-01-28,Australia Day Observance,VIC1
+2,2013-03-11,Canberra Day/Adelaide Cup/Eight Hours Day/Labour Day,VIC1
+3,2013-03-29,Good Friday,VIC1
+4,2013-03-30,Easter Saturday,VIC1
+5,2013-03-31,Easter Sunday,VIC1
+6,2013-04-01,Easter Monday,VIC1
+7,2013-04-25,Anzac Day,VIC1
+8,2013-06-10,Queen's Birthday,VIC1
+9,2013-11-05,Melbourne Cup,VIC1
+10,2013-12-25,Christmas Day,VIC1
+11,2013-12-26,Boxing Day/Proclamation Day,VIC1
+0,2014-01-01,New Year's Day,VIC1
+1,2014-01-27,Australia Day Observance,VIC1
+2,2014-03-10,Canberra Day/Adelaide Cup/Eight Hours Day/Labour Day,VIC1
+3,2014-04-18,Good Friday,VIC1
+4,2014-04-19,Easter Saturday,VIC1
+5,2014-04-20,Easter Sunday,VIC1
+6,2014-04-21,Easter Monday,VIC1
+7,2014-04-25,Anzac Day,VIC1
+8,2014-06-09,Queen's Birthday,VIC1
+9,2014-11-04,Melbourne Cup,VIC1
+10,2014-12-25,Christmas Day,VIC1
+11,2014-12-26,Boxing Day/Proclamation Day,VIC1
+0,2015-01-01,New Year's Day,VIC1
+1,2015-01-26,Australia Day,VIC1
+2,2015-03-09,Canberra Day/Adelaide Cup/Eight Hours Day/Labour Day,VIC1
+3,2015-04-03,Good Friday,VIC1
+4,2015-04-04,Easter Saturday,VIC1
+5,2015-04-05,Easter Sunday,VIC1
+6,2015-04-06,Easter Monday,VIC1
+7,2015-04-25,Anzac Day,VIC1
+8,2015-06-08,Queen's Birthday,VIC1
+9,2015-10-02,Friday before the AFL Grand Final,VIC1
+10,2015-11-03,Melbourne Cup,VIC1
+11,2015-12-25,Christmas Day,VIC1
+12,2015-12-26,Boxing Day/Proclamation Day,VIC1
+13,2015-12-28,Boxing Day Observance/Proclamation Day Observance,VIC1
+0,2016-01-01,New Year's Day,VIC1
+1,2016-01-26,Australia Day,VIC1
+2,2016-03-14,Canberra Day/Adelaide Cup/Eight Hours Day/Labour Day,VIC1
+3,2016-03-25,Good Friday,VIC1
+4,2016-03-26,Easter Saturday,VIC1
+5,2016-03-27,Easter Sunday,VIC1
+6,2016-03-28,Easter Monday,VIC1
+7,2016-04-25,Anzac Day,VIC1
+8,2016-06-13,Queen's Birthday,VIC1
+9,2016-09-30,Friday before the AFL Grand Final,VIC1
+10,2016-11-01,Melbourne Cup,VIC1
+11,2016-12-25,Christmas Day,VIC1
+12,2016-12-26,Christmas Day Observance,VIC1
+13,2016-12-27,Boxing Day Observance/Proclamation Day Observance,VIC1
+0,2017-01-01,New Year's Day,VIC1
+1,2017-01-02,New Year's Day Observance,VIC1
+2,2017-01-26,Australia Day,VIC1
+3,2017-03-13,Canberra Day/Adelaide Cup/Eight Hours Day/Labour Day,VIC1
+4,2017-04-14,Good Friday,VIC1
+5,2017-04-15,Easter Saturday,VIC1
+6,2017-04-16,Easter Sunday,VIC1
+7,2017-04-17,Easter Monday,VIC1
+8,2017-04-25,Anzac Day,VIC1
+9,2017-06-12,Queen's Birthday,VIC1
+10,2017-09-29,Friday before the AFL Grand Final,VIC1
+11,2017-11-07,Melbourne Cup,VIC1
+12,2017-12-25,Christmas Day,VIC1
+13,2017-12-26,Boxing Day/Proclamation Day,VIC1
+0,2018-01-01,New Year's Day,VIC1
+1,2018-01-26,Australia Day,VIC1
+2,2018-03-12,Canberra Day/Adelaide Cup/Eight Hours Day/Labour Day,VIC1
+3,2018-03-30,Good Friday,VIC1
+4,2018-03-31,Easter Saturday,VIC1
+5,2018-04-01,Easter Sunday,VIC1
+6,2018-04-02,Easter Monday,VIC1
+7,2018-04-25,Anzac Day,VIC1
+8,2018-06-11,Queen's Birthday,VIC1
+9,2018-09-28,Friday before the AFL Grand Final,VIC1
+10,2018-11-06,Melbourne Cup,VIC1
+11,2018-12-25,Christmas Day,VIC1
+12,2018-12-26,Boxing Day/Proclamation Day,VIC1
+0,2019-01-01,New Year's Day,VIC1
+1,2019-01-28,Australia Day Observance,VIC1
+2,2019-03-11,Canberra Day/Adelaide Cup/Eight Hours Day/Labour Day,VIC1
+3,2019-04-19,Good Friday,VIC1
+4,2019-04-20,Easter Saturday,VIC1
+5,2019-04-21,Easter Sunday,VIC1
+6,2019-04-22,Easter Monday,VIC1
+7,2019-04-25,Anzac Day,VIC1
+8,2019-06-10,Queen's Birthday,VIC1
+9,2019-09-27,Friday before the AFL Grand Final,VIC1
+10,2019-11-05,Melbourne Cup,VIC1
+11,2019-12-25,Christmas Day,VIC1
+12,2019-12-26,Boxing Day/Proclamation Day,VIC1
+0,2020-01-01,New Year's Day,VIC1
+1,2020-01-27,Australia Day Observance,VIC1
+2,2020-03-09,Canberra Day/Adelaide Cup/Eight Hours Day/Labour Day,VIC1
+3,2020-04-10,Good Friday,VIC1
+4,2020-04-11,Easter Saturday,VIC1
+5,2020-04-12,Easter Sunday,VIC1
+6,2020-04-13,Easter Monday,VIC1
+7,2020-04-25,Anzac Day,VIC1
+8,2020-06-08,Queen's Birthday,VIC1
+9,2020-10-23,Friday before the AFL Grand Final,VIC1
+10,2020-11-03,Melbourne Cup,VIC1
+11,2020-12-25,Christmas Day,VIC1
+12,2020-12-26,Boxing Day/Proclamation Day,VIC1
+13,2020-12-28,Boxing Day Observance/Proclamation Day Observance,VIC1
+0,2021-01-01,New Year's Day,VIC1
+1,2021-01-26,Australia Day,VIC1
+2,2021-03-08,Canberra Day/Adelaide Cup/Eight Hours Day/Labour Day,VIC1
+3,2021-04-02,Good Friday,VIC1
+4,2021-04-03,Easter Saturday,VIC1
+5,2021-04-04,Easter Sunday,VIC1
+6,2021-04-05,Easter Monday,VIC1
+7,2021-04-25,Anzac Day,VIC1
+8,2021-06-14,Queen's Birthday,VIC1
+9,2021-09-24,Friday before the AFL Grand Final,VIC1
+10,2021-11-02,Melbourne Cup,VIC1
+11,2021-12-25,Christmas Day,VIC1
+12,2021-12-26,Boxing Day/Proclamation Day,VIC1
+13,2021-12-27,Christmas Day Observance,VIC1
+14,2021-12-28,Boxing Day Observance/Proclamation Day Observance,VIC1
+0,2022-01-01,New Year's Day,VIC1
+1,2022-01-03,New Year's Day Observance,VIC1
+2,2022-01-26,Australia Day,VIC1
+3,2022-03-14,Canberra Day/Adelaide Cup/Eight Hours Day/Labour Day,VIC1
+4,2022-04-15,Good Friday,VIC1
+5,2022-04-16,Easter Saturday,VIC1
+6,2022-04-17,Easter Sunday,VIC1
+7,2022-04-18,Easter Monday,VIC1
+8,2022-04-25,Anzac Day,VIC1
+9,2022-06-13,Queen's Birthday,VIC1
+10,2022-09-22,National Day of Mourning,VIC1
+11,2022-09-23,Friday before the AFL Grand Final,VIC1
+12,2022-11-01,Melbourne Cup,VIC1
+13,2022-12-25,Christmas Day,VIC1
+14,2022-12-26,Christmas Day Observance,VIC1
+15,2022-12-27,Boxing Day Observance/Proclamation Day Observance,VIC1
+0,2023-01-01,New Year's Day,VIC1
+1,2023-01-02,New Year's Day Observance,VIC1
+2,2023-01-26,Australia Day,VIC1
+3,2023-03-13,Canberra Day/Adelaide Cup/Eight Hours Day/Labour Day,VIC1
+4,2023-04-07,Good Friday,VIC1
+5,2023-04-08,Easter Saturday,VIC1
+6,2023-04-09,Easter Sunday,VIC1
+7,2023-04-10,Easter Monday,VIC1
+8,2023-04-25,Anzac Day,VIC1
+9,2023-06-12,Queen's Birthday,VIC1
+10,2023-09-29,Friday before the AFL Grand Final,VIC1
+11,2023-11-07,Melbourne Cup,VIC1
+12,2023-12-25,Christmas Day,VIC1
+13,2023-12-26,Boxing Day/Proclamation Day,VIC1
+0,2024-01-01,New Year's Day,VIC1
+1,2024-01-26,Australia Day,VIC1
+2,2024-03-11,Canberra Day/Adelaide Cup/Eight Hours Day/Labour Day,VIC1
+3,2024-03-29,Good Friday,VIC1
+4,2024-03-30,Easter Saturday,VIC1
+5,2024-03-31,Easter Sunday,VIC1
+6,2024-04-01,Easter Monday,VIC1
+7,2024-04-25,Anzac Day,VIC1
+8,2024-06-10,Queen's Birthday,VIC1
+9,2024-09-27,Friday before the AFL Grand Final,VIC1
+10,2024-11-05,Melbourne Cup,VIC1
+11,2024-12-25,Christmas Day,VIC1
+12,2024-12-26,Boxing Day/Proclamation Day,VIC1
